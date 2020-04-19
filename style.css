@@ -204,7 +204,7 @@ ul.list-inline.text-center {
 
 .beginner-blog {
   padding: 50px;
-  background: linear-gradient(to bottom, #003399 0%, #33ccff 100%);
+  background-image: url('./Images/Beginners.jpeg');
   transition: transform .5s; 
   width:300px;
   height:350px;
@@ -217,7 +217,7 @@ ul.list-inline.text-center {
 
 .mediator-blog {
   padding: 50px;
-  background: linear-gradient(to bottom, #003399 0%, #33ccff 100%);
+    background-image: url('./Images/Mediators.jpeg');
   transition: transform .5s; 
   width:300px;
   height:350px;
@@ -230,7 +230,7 @@ ul.list-inline.text-center {
 
 .advance-blog {
   padding: 50px;
-  background: linear-gradient(to bottom, #003399 0%, #33ccff 100%);
+    background-image: url('./Images/Advanced.jpeg');
   transition: transform .5s; 
   width:300px;
   height:350px;
