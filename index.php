@@ -39,7 +39,7 @@
 
 
 <div class="container">
-	<center><h1>Categories</h1></center>
+	<center><h1>Category</h1></center>
   <svg id="circle-nav-services" class="" width="100%" height="100%" viewBox="0 0 650 550">
     <defs>
     <filter id="service-shadow" height="2" width="2" y="-.5" x="-.5">
