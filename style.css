@@ -295,6 +295,23 @@ ul.list-inline.text-center {
 	height:250px;
 }
 
+/* Related Post CSS */
+.post_title{
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline !important;
+}
+
+.post_desc{
+  font-size: 17px;
+  text-align: center;
+}
+
+.Intro{
+  text-align:justify;
+  font-size: 20px !important;
+}
+
 /* Category Css */
 .circle-height{
 	margin-top:200px;

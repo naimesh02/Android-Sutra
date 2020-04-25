@@ -36,8 +36,6 @@
 
 
 <!-- Category -->
-
-
 <div class="container">
 	<center><h1>Category</h1></center>
   <svg id="circle-nav-services" class="" width="100%" height="100%" viewBox="0 0 650 550">
@@ -283,45 +281,71 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'>	
 </script><script src="script.js"></script>
 
+<!-- Android Description -->
+<div class="container" style="margin-top:100px;">
+  <center> 
+    <h1>Introduction For Android</h1>
+  </center> 
+  <div class="row" style="margin-top:50px;">      
+   <p class="Intro"><b>Android</b> is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance, with the main contributor and commercial marketer being Google</p>
+
+   <p class="Intro">Initially developed by Android Inc., which Google bought in 2005, Android was unveiled in 2007, with the first commercial Android device launched in September 2008. The current stable version is Android 10, released on September 3, 2019. The core Android source code is known as Android Open Source Project (AOSP), which is primarily licensed under the Apache License. This has allowed variants of Android to be developed on a range of other electronics, such as game consoles, digital cameras, PCs and others, each with a specialized user interface. Some well known derivatives include Android TV for televisions and Wear OS for wearables, both developed by Google.</p>
+
+    <div class="col-sm-6">
+      <img src="https://nareshit.com/wp-content/uploads/2018/09/android-online-training-nareshit-463x250.jpg" width="550" height="315" alt="Denim Jeans">
+    </div>
+
+    <div class="col-sm-6">
+         <iframe src="http://www.youtube.com/embed/W7qWa52k-nE" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+
 <!-- Blog Wise Card -->
-<div class="container">
-	<center><h1 style="margin-top:50px;margin-bottom:50px;">Blog Information</h1></center>
+<div class="container" style="margin-top:200px;">
+	<center><h1 style="margin-top:50px;margin-bottom:50px;">Related Blog Information</h1></center>
 	<div class="row">
 		<div class="card">
   			<img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
-				<p>Some text about the jeans..</p>
+				<p class="post_title">Some text about the jeans</p>
+        <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
 		</div>
 
 		<div class="card">
   			<img src="https://www.androidhive.info/wp-content/uploads/2019/03/android-using-font-awesome-icon-collection-370x247.png" alt="Denim Jeans" class="blog-image">
-				<p>Some text about the jeans..</p>
+				<p class="post_title">Some text about the jeans..</p>
+        <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
 		</div>
 
-		<div class="card">
-  			<img src="https://www.androidhive.info/wp-content/uploads/2019/02/android-paytm-gateway-tutorial-ecommerce-app-370x247.png" alt="Denim Jeans" class="blog-image">
-				<p>Some text about the jeans..</p>
-		</div>
-	</div>
+    <div class="card">
+        <img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
+        <p class="post_title">Some text about the jeans..</p>
+        <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
+    </div>
+  </div>
 </div>
 
 <div class="container">
-	<div class="row">
-		<div class="card">
-  			<img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
-				<p>Some text about the jeans..</p>
-		</div>
+  <div class="row">
+    <div class="card">
+        <img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
+        <p class="post_title">Some text about the jeans..</p>
+        <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
+    </div>
 
-		<div class="card">
-  			<img src="https://www.androidhive.info/wp-content/uploads/2019/03/android-using-font-awesome-icon-collection-370x247.png" alt="Denim Jeans" class="blog-image">
-				<p>Some text about the jeans..</p>
-		</div>
+    <div class="card">
+        <img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
+        <p class="post_title">Some text about the jeans..</p>
+        <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
+    </div>
 
-		<div class="card">
-  			<img src="https://www.androidhive.info/wp-content/uploads/2019/02/android-paytm-gateway-tutorial-ecommerce-app-370x247.png" alt="Denim Jeans" class="blog-image">
-				<p>Some text about the jeans..</p>
-		</div>
+    <div class="card">
+        <img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
+        <p class="post_title">Some text about the jeans..</p>
+        <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
+    </div>
 	</div>
 </div>
-
 
 <?php include 'footer.php';?>
