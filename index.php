@@ -158,7 +158,7 @@
         <tspan class="cls-8" x="113" y="96">r</tspan>
         <tspan x="118" y="96">ams.</tspan>
       </text>
-      <text class="cls-1" transform="translate(87 65)">Industries</text>
+      <text class="cls-1" transform="translate(87 65)">&nbsp;&nbsp;&nbsp;&nbsp;App</text>
       <text class="cls-5" transform="translate(63 108)">Our highly skilled staff is
         <tspan x="-9" y="19">disciplined </tspan>
         <tspan class="cls-6" x="71" y="19">t</tspan>
@@ -177,7 +177,11 @@
         <tspan class="cls-15" x="8" y="96">e</tspan>
         <tspan class="cls-11" x="16" y="96">v</tspan>
         <tspan x="24" y="96">olving expectations.</tspan>
+	
       </text>
+	   <use x="85" y="30" width="280" height="280" xlink:href="#circle-nav-copy" class="nav-copy"/>
+	<a href="category.php?category=App"><rect data-url="/industry" id="learn-more" x="100" y="230" width="90" height="30" />
+    <text x="115" y="250" class="learn-more-text">Learn more</text></a>
       <text class="cls-1" transform="translate(87 365)">
         <tspan class="cls-17">V</tspan>
         <tspan x="18" y="0">alidation</tspan>
@@ -271,8 +275,8 @@
     </g>
     <circle cx="325" cy="170" r="140" class="center"/>
     <use x="185" y="30" width="280" height="280" xlink:href="#circle-nav-copy" class="nav-copy"/>
-    <rect data-url="/industries" id="learn-more" x="280" y="250" width="90" height="30" />
-    <text x="290" y="270" class="learn-more-text">Learn more</text>
+  <!--  <rect data-url="" id="learn-more" x="280" y="250" width="90" height="30" />
+    <text x="290" y="270" class="learn-more-text">Learn more</text>-->
   </svg>
 </div>
 
