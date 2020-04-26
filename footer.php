@@ -1,6 +1,6 @@
 <div class="footer">
 	<div class="container-fluid" id="contact-bar">
-    <img src="w3images/Footer-logo.png" class="footer-logo"></img>  
+    <img src="Images/Footer-logo.png" class="footer-logo"></img>  
   		<ul class="list-inline text-center">
     		<li>
       			<a href="#"><i class="footer-icon fa fa-facebook"></i></a>

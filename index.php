@@ -13,6 +13,8 @@
 	</div>
 </div>
 
+
+
 <!-- Blog -->
 <div class="container">
 	<h3 class="blog-title">Android working with ViewPager2, TabLayout and Page Transformers</h3>
@@ -279,7 +281,7 @@
 <!-- partial -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'>	
-</script><script src="script.js"></script>
+</script><script src="js/script.js"></script>
 
 <!-- Android Description -->
 <div class="container" style="margin-top:100px;">

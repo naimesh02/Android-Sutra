@@ -11,7 +11,7 @@
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  	<link rel="stylesheet" type="text/css" href="style.css">
+  	<link rel="stylesheet" type="text/css" href="css/Index-Style.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'> -->
     <link rel="stylesheet" href="category-style.css">
@@ -29,7 +29,7 @@
 <div class="navigation-menu">
 <header class="header">
     <h1 class="logo">
-      <img src="w3images/Header-Logo.png" style="width:40%;"></img>
+      <img src="Images/Header-Logo.png" style="width:40%;"></img>
     </h1>
       <ul class="main-nav">
           <li><a href="#" class="font-color">RXJAVA</a></li>
