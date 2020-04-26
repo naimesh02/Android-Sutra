@@ -515,6 +515,7 @@ ul.list-inline.text-center {
 }
 .category-img{
   border-radius: 10px !important;
+  width:70%;
 }
 .category-title{
   font-size: 20px;
