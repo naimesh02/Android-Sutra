@@ -11,12 +11,12 @@ const tspan_delta = 16;
 //icon is the id of the corresponding svg symbol
 const services_data = [
 { name: "Apps", icon: "industries",url:"/App.php" },
-{ name: "Validation\n(C&Q and CSV)", icon: "validation" },
-{ name: "Engineering", icon: "engineering" },
-{ name: "Project\nManagement", icon: "management" },
-{ name: "Manufacturing\nIT", icon: "manufacturing" },
-{ name: "Technical\nServices", icon: "technical" },
-{ name: "Process\nAutomation", icon: "process" }];
+{ name: "Architecture\nComponents", icon: "validation" },
+{ name: "Database", icon: "engineering" },
+{ name: "Material\nDesign", icon: "management" },
+{ name: "Firebase\nFirestore", icon: "manufacturing" },
+{ name: "Clund\nConnectivity", icon: "technical" },
+{ name: "UI &\nUX", icon: "process" }];
 
 
 const services = document.getElementById("service-collection");

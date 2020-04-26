@@ -56,13 +56,13 @@
         </style>
       </defs>
       <title>Artboard 1</title>
-      <text class="cls-1" transform="translate(99 1865)">P
-        <tspan class="cls-2" x="18" y="0">r</tspan>
+      <text class="cls-1" transform="translate(99 1865)">UI & UX
+        <!--<tspan class="cls-2" x="18" y="0">r</tspan>
         <tspan x="28" y="0">ocess</tspan>
         <tspan class="cls-3" x="-22" y="28">A</tspan>
         <tspan x="-4" y="28">u</tspan>
         <tspan class="cls-4" x="12" y="28">t</tspan>
-        <tspan x="21" y="28">omation</tspan>
+        <tspan x="21" y="28">omation</tspan>-->
       </text>
       <text class="cls-5" transform="translate(57 1930)">Our p
         <tspan class="cls-6" x="38" y="0">r</tspan>
@@ -95,12 +95,12 @@
         <tspan class="cls-6" x="99" y="77">r</tspan>
         <tspan x="104" y="77">oject goals.</tspan>
       </text>
+	   <a href="category.php?category=App"><rect data-url="/industry" id="learn-more" x="100" y="2030" width="90" height="30" />
+    <text x="115" y="2050" class="learn-more-text">Learn more</text></a>
       <text class="cls-1" transform="translate(89 1566)">
-        <tspan class="cls-12">T</tspan>
-        <tspan x="16" y="0">echnical</tspan>
-        <tspan x="7" y="28">Se</tspan>
-        <tspan class="cls-10" x="39" y="28">r</tspan>
-        <tspan x="49" y="28">vices</tspan>
+Cloud
+       
+        <tspan x="0" y="28">Connectivity</tspan>
       </text>
       <text class="cls-5" transform="translate(47 1636)">
         <tspan class="cls-13">W</tspan>
@@ -117,10 +117,12 @@
         <tspan class="cls-14" x="7" y="58">r</tspan>
         <tspan x="13" y="58">form as the intended design.</tspan>
       </text>
-      <text class="cls-1" transform="translate(105 966)">P
-        <tspan class="cls-2" x="18" y="0">r</tspan>
-        <tspan x="28" y="0">oject</tspan>
-        <tspan x="-38" y="28">Management</tspan>
+	   <a href="category.php?category=App"><rect data-url="/industry" id="learn-more" x="100" y="1730" width="90" height="30" />
+    <text x="115" y="1750" class="learn-more-text">Learn more</text></a>
+      <text class="cls-1" transform="translate(105 966)">Material
+<!--        <tspan class="cls-2" x="18" y="0">a</tspan>
+        <tspan x="28" y="0">terial</tspan>-->
+        <tspan x="8" y="28">Design</tspan>
       </text>
       <text class="cls-5" transform="translate(65 1037)">
         <tspan class="cls-13">W</tspan>
@@ -139,7 +141,9 @@
         <tspan class="cls-7" x="116" y="58">r</tspan>
         <tspan x="121" y="58">ements.</tspan>
       </text>
-      <text class="cls-1" transform="translate(75 666)">Engineering</text>
+	  <a href="category.php?category=App"><rect data-url="/industry" id="learn-more" x="100" y="1130" width="90" height="30" />
+    <text x="115" y="1150" class="learn-more-text">Learn more</text></a>
+      <text class="cls-1" transform="translate(75 666)">Database Info</text>
       <text class="cls-5" transform="translate(83 710)">Cost
         <tspan class="cls-7" x="37" y="0">r</tspan>
         <tspan x="42" y="0">eduction and </tspan>
@@ -159,7 +163,10 @@
         <tspan x="95" y="96">og</tspan>
         <tspan class="cls-8" x="113" y="96">r</tspan>
         <tspan x="118" y="96">ams.</tspan>
-      </text>
+      </text> 
+	<a href="category.php?category=App"><rect data-url="/industry" id="learn-more" x="100" y="820" width="90" height="30" />
+    <text x="115" y="840" class="learn-more-text">Learn more</text></a>
+      
       <text class="cls-1" transform="translate(87 65)">&nbsp;&nbsp;&nbsp;&nbsp;App</text>
       <text class="cls-5" transform="translate(63 108)">Our highly skilled staff is
         <tspan x="-9" y="19">disciplined </tspan>
@@ -185,12 +192,12 @@
 	<a href="category.php?category=App"><rect data-url="/industry" id="learn-more" x="100" y="230" width="90" height="30" />
     <text x="115" y="250" class="learn-more-text">Learn more</text></a>
       <text class="cls-1" transform="translate(87 365)">
-        <tspan class="cls-17">V</tspan>
-        <tspan x="18" y="0">alidation</tspan>
-        <tspan x="-32" y="28">(Q&amp;C and CS</tspan>
-        <tspan class="cls-18" x="130" y="28">V</tspan>
-        <tspan x="149" y="28">)</tspan>
+        <tspan class="cls-17">A</tspan>
+        <tspan x="18" y="0">rchitecture</tspan>
+        <tspan x="-32" y="28">&nbsp;&nbsp;&nbsp;Components</tspan>
+       
       </text>
+	  
       <text class="cls-5" transform="translate(46 437)">As pa
         <tspan class="cls-19" x="40" y="0">r</tspan>
         <tspan x="46" y="0">t of our wide expe</tspan>
@@ -205,11 +212,15 @@
         <tspan class="cls-17" x="59" y="58">V</tspan>
         <tspan x="69" y="58">alidation Solutions.</tspan>
       </text>
-      <text class="cls-1" transform="translate(138 1266)">
-        <tspan class="cls-20">I
-          <tspan class="cls-21" x="8" y="0">T</tspan>
-        </tspan>
-        <tspan x="-80" y="28">Manufacturing</tspan>
+	   <use x="85" y="30" width="280" height="280" xlink:href="#circle-nav-copy" class="nav-copy"/>
+	<a href="category.php?category=App"><rect data-url="/industry" id="learn-more" x="100" y="530" width="90" height="30" />
+    <text x="115" y="550" class="learn-more-text">Learn more</text></a>
+      
+	  <text class="cls-1" transform="translate(138 1266)">
+
+          <tspan class="cls-21" x="-38" y="0">Firebase</tspan>
+
+        <tspan x="-38" y="28">Firestore</tspan>
       </text>
       <text class="cls-5" transform="translate(47 1323)">Our Manufacturing E
         <tspan class="cls-6" x="146" y="0">x</tspan>
@@ -223,6 +234,8 @@
         <tspan class="cls-15" x="44" y="96">ev</tspan>
         <tspan x="60" y="96">el applications. </tspan>
       </text>
+	   <a href="category.php?category=App"><rect data-url="/industry" id="learn-more" x="100" y="1430" width="90" height="30" />
+    <text x="115" y="1450" class="learn-more-text">Learn more</text></a>
     </symbol>
     <symbol id="industries" viewBox="0 0 512 512">
       <path d="M17.528 189.7l29.46 5.893c1.875 5.74 4.193 11.33 6.924 16.708l-16.667 25.002c-5.745 8.618-4.6 20.188 2.725 27.51l13.196 13.197c7.32 7.322 18.892 8.47 27.51 2.724l25.002-16.666c5.378 2.732 10.97 5.05 16.708 6.922l5.893 29.46c2.03 10.157 11.022 17.53 21.378 17.53h18.663c10.357 0 19.35-7.373 21.38-17.528l5.893-29.462c5.74-1.874 11.33-4.19 16.708-6.922l25.003 16.666c8.617 5.745 20.188 4.602 27.51-2.724l13.197-13.197c7.323-7.323 8.47-18.893 2.724-27.51L264.067 212.3c2.73-5.377 5.05-10.97 6.923-16.707l29.46-5.892c10.157-2.03 17.53-11.022 17.53-21.378v-1.248h26.946V277.2c0 4.464 3.618 8.083 8.084 8.083 4.466 0 8.084-3.62 8.084-8.084V167.073H478.82c3.464 8.69 6.444 17.646 8.902 26.85 1.153 4.314 5.583 6.876 9.897 5.725 4.313-1.152 6.876-5.584 5.724-9.898C473.492 78.03 371.78 0 256 0c-14.635 0-29.312 1.246-43.626 3.704-4.4.756-7.354 4.936-6.6 9.336s4.928 7.356 9.337 6.6c13.412-2.303 27.17-3.47 40.89-3.47 92.894 0 176.116 53.604 215.667 134.736H361.095v-45.81c0-24.357-8.524-48.1-24.003-66.854-2.84-3.443-7.937-3.93-11.38-1.09-3.444 2.842-3.93 7.938-1.09 11.382 13.094 15.864 20.304 35.952 20.304 56.56v45.812H317.98v-1.247c0-10.357-7.373-19.35-17.53-21.38l-29.46-5.892c-1.874-5.74-4.192-11.33-6.923-16.708l16.668-25c5.745-8.62 4.6-20.19-2.725-27.512l-13.196-13.196c-7.32-7.323-18.89-8.47-27.51-2.725l-25.002 16.667c-5.378-2.732-10.97-5.05-16.708-6.923L189.7 17.53C187.67 7.372 178.68 0 168.32 0H149.66c-10.356 0-19.348 7.372-21.38 17.527l-5.892 29.462c-5.74 1.873-11.33 4.19-16.708 6.922L80.676 37.244c-8.617-5.745-20.188-4.602-27.51 2.724L39.97 53.165c-7.323 7.323-8.47 18.893-2.724 27.51l16.667 25.002c-2.73 5.378-5.048 10.97-6.922 16.708l-29.46 5.892C7.37 130.31 0 139.3 0 149.657v18.664c0 10.358 7.372 19.35 17.528 21.38zm-1.36-40.042c0-2.676 1.906-5 4.53-5.524l34.205-6.84c2.985-.598 5.38-2.82 6.2-5.75 2.18-7.793 5.298-15.315 9.263-22.355 1.494-2.653 1.37-5.92-.318-8.453l-19.35-29.03c-1.485-2.226-1.19-5.216.703-7.11l13.2-13.196c1.89-1.892 4.88-2.188 7.108-.703l29.03 19.353c2.532 1.688 5.8 1.81 8.452.317 7.04-3.966 14.56-7.082 22.353-9.262 2.93-.82 5.152-3.215 5.75-6.2l6.84-34.207c.525-2.625 2.85-4.53 5.525-4.53h18.663c2.676 0 5 1.906 5.525 4.53l6.842 34.208c.597 2.984 2.82 5.38 5.75 6.2 7.792 2.18 15.313 5.296 22.353 9.26 2.652 1.494 5.918 1.373 8.452-.316l29.03-19.353c2.225-1.483 5.215-1.19 7.11.704L266.578 64.6c1.894 1.893 2.19 4.883.705 7.11l-19.353 29.03c-1.688 2.532-1.812 5.798-.318 8.45 3.966 7.04 7.082 14.562 9.263 22.357.82 2.93 3.215 5.15 6.2 5.748l34.206 6.84c2.626.526 4.53 2.85 4.53 5.525v18.663c0 2.677-1.906 5-4.53 5.525l-34.205 6.84c-2.985.598-5.38 2.82-6.2 5.75-2.18 7.793-5.298 15.315-9.263 22.355-1.494 2.652-1.37 5.92.318 8.452l19.353 29.03c1.484 2.226 1.19 5.216-.704 7.11l-13.2 13.196c-1.89 1.892-4.88 2.188-7.108.704l-29.03-19.353c-2.534-1.69-5.8-1.812-8.452-.318-7.04 3.966-14.562 7.082-22.353 9.262-2.93.82-5.152 3.215-5.75 6.2l-6.84 34.207c-.525 2.626-2.85 4.53-5.525 4.53H149.66c-2.676 0-5-1.905-5.525-4.53l-6.842-34.207c-.597-2.984-2.82-5.38-5.75-6.2-7.792-2.18-15.313-5.296-22.353-9.26-1.235-.696-2.602-1.04-3.968-1.04-1.566 0-3.13.454-4.484 1.357l-29.03 19.353c-2.226 1.483-5.215 1.19-7.11-.704l-13.195-13.2c-1.894-1.892-2.19-4.882-.705-7.11l19.353-29.028c1.69-2.533 1.813-5.8.32-8.452-3.967-7.04-7.083-14.56-9.264-22.356-.82-2.93-3.215-5.15-6.2-5.748l-34.206-6.84c-2.625-.525-4.53-2.85-4.53-5.525V149.66z"/>
