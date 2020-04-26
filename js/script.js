@@ -10,7 +10,7 @@ const tspan_delta = 16;
 //name is used as the title for the bubble
 //icon is the id of the corresponding svg symbol
 const services_data = [
-{ name: "Industries", icon: "industries" },
+{ name: "Apps", icon: "industries",url:"/App.php" },
 { name: "Validation\n(C&Q and CSV)", icon: "validation" },
 { name: "Engineering", icon: "engineering" },
 { name: "Project\nManagement", icon: "management" },
@@ -40,6 +40,9 @@ function setAttributes(el, options) {
 function addService(serv, index) {
   let group = createSVGElement("g");
   group.setAttribute("class", "service serv-" + index);
+  let learn=document.getElementById("learn-more");
+  learn.innerText="Helo";
+  
 
   /* This group is needed to apply animations in
                                                           the icon and its background at the same time */
