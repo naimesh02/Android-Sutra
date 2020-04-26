@@ -311,7 +311,7 @@ Cloud
    <p class="Intro">Initially developed by Android Inc., which Google bought in 2005, Android was unveiled in 2007, with the first commercial Android device launched in September 2008. The current stable version is Android 10, released on September 3, 2019. The core Android source code is known as Android Open Source Project (AOSP), which is primarily licensed under the Apache License. This has allowed variants of Android to be developed on a range of other electronics, such as game consoles, digital cameras, PCs and others, each with a specialized user interface. Some well known derivatives include Android TV for televisions and Wear OS for wearables, both developed by Google.</p>
 
     <div class="col-sm-6">
-      <img src="https://nareshit.com/wp-content/uploads/2018/09/android-online-training-nareshit-463x250.jpg" width="550" height="315" alt="Denim Jeans">
+      <img src="https://nareshit.com/wp-content/uploads/2018/09/android-online-training-nareshit-463x250.jpg" class="Intro-img" width="550" height="315" alt="Denim Jeans">
     </div>
 
     <div class="col-sm-6">

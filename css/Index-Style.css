@@ -203,6 +203,7 @@ ul.list-inline.text-center {
 
 
 .beginner-blog {
+  border-radius: 10px !important;
   padding: 50px;
   background-image: url('../Images/Beginners.jpeg');
   transition: transform .5s; 
@@ -216,8 +217,9 @@ ul.list-inline.text-center {
 }
 
 .mediator-blog {
+  border-radius: 10px !important;
   padding: 50px;
-    background-image: url('../Images/Mediators.jpeg');
+  background-image: url('../Images/Mediators.jpeg');
   transition: transform .5s; 
   width:300px;
   height:350px;
@@ -229,8 +231,9 @@ ul.list-inline.text-center {
 }
 
 .advance-blog {
+  border-radius: 10px !important;
   padding: 50px;
-    background-image: url('../Images/Advanced.jpeg');
+  background-image: url('../Images/Advanced.jpeg');
   transition: transform .5s; 
   width:300px;
   height:350px;
@@ -291,6 +294,7 @@ ul.list-inline.text-center {
 	margin-top:250px !important;
 }
 .blog-image{
+  border-radius: 10px !important;
 	width:300px;
 	height:250px;
 }
@@ -310,6 +314,10 @@ ul.list-inline.text-center {
 .Intro{
   text-align:justify;
   font-size: 20px !important;
+}
+
+.Intro-img{
+  border-radius: 10px !important;
 }
 
 /* Category Css */
@@ -435,7 +443,7 @@ ul.list-inline.text-center {
 }
 
 .center {
-  fill: #005fa4;
+  fill:#0b5790;
 }
 
 .pointer {
@@ -472,7 +480,7 @@ ul.list-inline.text-center {
   transition: all 250ms ease-in;
 }
 .service circle {
-  fill: #005fa4;
+  fill:#0b5790;
 }
 .service circle.shadow {
   fill-opacity: 0;
@@ -501,7 +509,21 @@ ul.list-inline.text-center {
   font-weight: bold;
 }
 
-
-
-/* Login CSS */
+/* Category Css */
+.category-row{
+  margin-top: 5%;
+}
+.category-img{
+  border-radius: 10px !important;
+}
+.category-title{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.category-desc{
+    font-size: 17px;
+    text-align: justify;
+    font-family: sans-serif;
+}
 

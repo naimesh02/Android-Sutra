@@ -1,10 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Untitled Document</title>
-</head>
+<?php include 'header.php';?>
 
-<body>
-</body>
-</html>
+<div class="container">
+	<div class="row category-row">
+		<div class="col-sm-4">
+			<img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" class="category-img" alt="Denim Jeans">
+		</div>
+    	<div class="col-sm-8">
+    		<p class="category-title">Some text about the jeans</p>
+        	<p class="category-desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
+    	</div>
+	</div>	
+</div>
+
+<?php include 'footer.php';?>
