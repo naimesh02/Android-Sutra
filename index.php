@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-
+<?php include 'conn.php';?>
 <!-- Advertisment -->
 <div class="advertisment">
 	<div class="main-box">
@@ -323,15 +323,24 @@ Cloud
 
 <!-- Blog Wise Card -->
 <div class="container" style="margin-top:200px;">
-	<center><h1 style="margin-top:50px;margin-bottom:50px;">Related Blog Information</h1></center>
+	<center><h1 style="margin-top:50px;margin-bottom:50px;">Related Post Information</h1></center>
 	<div class="row">
+	<?php 
+	$sql1="select  * from tbldata where type='Beginners' ORDER BY storeDate desc LIMIT 3";
+	$querys=mysqli_query($conn,$sql1);
+	while($row=mysqli_fetch_array($querys))
+	{
+	
+	?>
 		<div class="card">
-  			<img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
-				<p class="post_title">Some text about the jeans</p>
-        <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
+  			<img src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Denim Jeans" class="blog-image">
+				<p class="post_title"><?php echo $row['title'];?></p>
+        <p class="post_desc"><?php echo $row['description'];?></p>
 		</div>
-
-		<div class="card">
+<?php
+}
+?>
+	<!--	<div class="card">
   			<img src="https://www.androidhive.info/wp-content/uploads/2019/03/android-using-font-awesome-icon-collection-370x247.png" alt="Denim Jeans" class="blog-image">
 				<p class="post_title">Some text about the jeans..</p>
         <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
@@ -341,13 +350,29 @@ Cloud
         <img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
         <p class="post_title">Some text about the jeans..</p>
         <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
-    </div>
+    </div>-->
   </div>
 </div>
 
 <div class="container">
   <div class="row">
-    <div class="card">
+   <?php 
+	$sql1="select  * from tbldata where type='Mediators' ORDER BY storeDate desc LIMIT 3";
+	$querys=mysqli_query($conn,$sql1);
+	while($row=mysqli_fetch_array($querys))
+	{
+	
+	?>
+		<div class="card">
+  			<img src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Denim Jeans" class="blog-image">
+				<p class="post_title"><?php echo $row['title'];?></p>
+        <p class="post_desc"><?php echo $row['description'];?></p>
+		</div>
+<?php
+}
+?>
+
+ <!--   <div class="card">
         <img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
         <p class="post_title">Some text about the jeans..</p>
         <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
@@ -357,13 +382,39 @@ Cloud
         <img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
         <p class="post_title">Some text about the jeans..</p>
         <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
+    </div>-->
+	</div>
+</div>
+
+<div class="container" style="margin-top:-100px;">
+  <div class="row">
+   <?php 
+	$sql1="select  * from tbldata where type='Advanced' ORDER BY storeDate desc LIMIT 3";
+	$querys=mysqli_query($conn,$sql1);
+	while($row=mysqli_fetch_array($querys))
+	{
+	
+	?>
+		<div class="card">
+  			<img src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Denim Jeans" class="blog-image">
+				<p class="post_title"><?php echo $row['title'];?></p>
+        <p class="post_desc"><?php echo $row['description'];?></p>
+		</div>
+
+<?php
+}
+?>
+ <!--   <div class="card">
+        <img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
+        <p class="post_title">Some text about the jeans..</p>
+        <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
     </div>
 
     <div class="card">
         <img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
         <p class="post_title">Some text about the jeans..</p>
         <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
-    </div>
+    </div>-->
 	</div>
 </div>
 

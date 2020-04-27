@@ -309,6 +309,13 @@ ul.list-inline.text-center {
 .post_desc{
   font-size: 17px;
   text-align: center;
+  overflow: hidden;
+   text-overflow: ellipsis;
+   
+	 display: -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+	
 }
 
 .Intro{
@@ -515,7 +522,8 @@ ul.list-inline.text-center {
 }
 .category-img{
   border-radius: 10px !important;
-  width:70%;
+  width:80%;
+  height:200px;	
 }
 .category-title{
   font-size: 20px;
@@ -526,5 +534,10 @@ ul.list-inline.text-center {
     font-size: 17px;
     text-align: justify;
     font-family: sans-serif;
+	overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 4; /* number of lines to show */
+   -webkit-box-orient: vertical;
 }
 
