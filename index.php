@@ -20,18 +20,18 @@
 	<h3 class="blog-title">Android working with ViewPager2, TabLayout and Page Transformers</h3>
 	<div class="row">
     	<div class="beginner-blog">
-    		<i class="fa fa-android android-icon" aria-hidden="true"></i>
-    		<span class="android-content">Beginners</span>
+    	<a href="Data.php?type=Beginners">	<i class="fa fa-android android-icon" aria-hidden="true"></i>
+    		<span class="android-content">Beginners</span></a>
     	</div>
 		
 		<div class="mediator-blog">
-			<i class="fa fa-android android-icon" aria-hidden="true"></i>
-    		<span class="android-content">Mediators</span>
+		<a href="Data.php?type=Mediators"><i class="fa fa-android android-icon" aria-hidden="true"></i>
+    		<span class="android-content">Mediators</span></a>
 		</div>
 
     	<div class="advance-blog">
-    		<i class="fa fa-android android-icon" aria-hidden="true"></i>
-    		<span class="android-content">Advance</span>
+    	<a href="Data.php?type=Advanced"><i class="fa fa-android android-icon" aria-hidden="true"></i>
+    		<span class="android-content">Advance</span></a>
     	</div>
   	</div>
 </div>
