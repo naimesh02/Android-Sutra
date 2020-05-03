@@ -13,7 +13,10 @@
 		 <div class="w3-third w3-center">
 			<img src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image']; ?>" class="category-img" alt="Denim Jeans">
 		</div>
-		 <div class="w3-third w3-center " id="w3-card-content" >
+
+	
+		 <div class="w3-third w3-center" id="w3-card-content">
+
     		<p class="category-title"><?php echo $row['title']; ?></p>
         	<p class="category-desc"><?php echo $row['description']; ?></p>
     	</p>

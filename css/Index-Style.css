@@ -332,8 +332,10 @@ ul.list-inline.text-center {
 }
 
 .Intro{
-  text-align:justify;
+  line-height: 1.5;
+  text-align: justify;
   font-size: 20px !important;
+  letter-spacing: 1px;
 }
 
 .Intro-img{
@@ -568,7 +570,7 @@ ul.list-inline.text-center {
   position: fixed;
   top: 0;
   width: 100%; 
- 
+
  
 }
 
@@ -576,4 +578,18 @@ ul.list-inline.text-center {
 /*category-card data content css*/
 #w3-card-content{
   width: 60%;
+
+ }
+ /* View Category */
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.category-content{
+  text-align:justify;
+  letter-spacing: 1px;
+  line-height: 1.7;
+
 }
