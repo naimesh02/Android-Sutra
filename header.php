@@ -15,6 +15,8 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'> -->
     <link rel="stylesheet" href="category-style.css">
+<!--	<script src="js/stickyHeader.js"></script>-->
+	
 <body>
 
 <div class="social-menu-section">
@@ -25,10 +27,12 @@
 </div>
 
 <div class="navigation-menu">
+<div id="navbar">
 <header class="header">
+<a href="index.php">
     <h1 class="logo">
       <img src="Images/Header-Logo.png" style="width:40%;"></img>
-    </h1>
+    </h1></a>
       <ul class="main-nav">
           <li><a href="#" class="font-color">RXJAVA</a></li>
           <li><a href="#" class="font-color">BLOGS</a></li>
@@ -38,6 +42,21 @@
           <li><a href="#" class="font-color">GITHUB</a></li>
       </ul>
   </header> 
+  </div>
 </div>
 
 
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>

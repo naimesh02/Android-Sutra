@@ -1,5 +1,7 @@
 <?php include 'header.php';?>
 <?php include 'conn.php';?>
+
+
 <!-- Advertisment -->
 <div class="advertisment">
 	<div class="main-box">
@@ -20,17 +22,17 @@
 	<h3 class="blog-title">Android working with ViewPager2, TabLayout and Page Transformers</h3>
 	<div class="row">
     	<div class="beginner-blog">
-    	<a href="Data.php?type=Beginners">	<i class="fa fa-android android-icon" aria-hidden="true"></i>
+    	<a href="Data.php?type=Beginners" class="data-link">	<i class="fa fa-android android-icon" aria-hidden="true"></i>
     		<span class="android-content">Beginners</span></a>
     	</div>
 		
 		<div class="mediator-blog">
-		<a href="Data.php?type=Mediators"><i class="fa fa-android android-icon" aria-hidden="true"></i>
+		<a href="Data.php?type=Mediators" class="data-link"><i class="fa fa-android android-icon" aria-hidden="true"></i>
     		<span class="android-content">Mediators</span></a>
 		</div>
 
     	<div class="advance-blog">
-    	<a href="Data.php?type=Advanced"><i class="fa fa-android android-icon" aria-hidden="true"></i>
+    	<a href="Data.php?type=Advanced" class="data-link"><i class="fa fa-android android-icon" aria-hidden="true"></i>
     		<span class="android-content">Advance</span></a>
     	</div>
   	</div>
@@ -38,8 +40,8 @@
 
 
 <!-- Category -->
-<div class="container">
-	<center><h1>Category</h1></center>
+<div class="container" style="margin-top:50px;">
+	<center><h1 style="font-size: 50px;">Category</h1></center>
   <svg id="circle-nav-services" class="" width="100%" height="100%" viewBox="0 0 650 550">
     <defs>
     <filter id="service-shadow" height="2" width="2" y="-.5" x="-.5">
@@ -300,8 +302,9 @@ Cloud
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'>	
 </script><script src="js/script.js"></script>
 
+
 <!-- Android Description -->
-<div class="container" style="margin-top:100px;">
+<div class="container">
   <center> 
     <h1>Introduction For Android</h1>
   </center> 
@@ -310,19 +313,20 @@ Cloud
 
    <p class="Intro">Initially developed by Android Inc., which Google bought in 2005, Android was unveiled in 2007, with the first commercial Android device launched in September 2008. The current stable version is Android 10, released on September 3, 2019. The core Android source code is known as Android Open Source Project (AOSP), which is primarily licensed under the Apache License. This has allowed variants of Android to be developed on a range of other electronics, such as game consoles, digital cameras, PCs and others, each with a specialized user interface. Some well known derivatives include Android TV for televisions and Wear OS for wearables, both developed by Google.</p>
 
-    <div class="col-sm-6">
-      <img src="https://nareshit.com/wp-content/uploads/2018/09/android-online-training-nareshit-463x250.jpg" class="Intro-img" width="550" height="315" alt="Denim Jeans">
-    </div>
 
-    <div class="col-sm-6">
-         <iframe src="http://www.youtube.com/embed/W7qWa52k-nE" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+    <div class="col-xs-6">
+      <img src="https://nareshit.com/wp-content/uploads/2018/09/android-online-training-nareshit-463x250.jpg" class="Intro-img" width="570" height="335" alt="Denim Jeans">
+    </div>
+ 
+    <div class="col-xs-6">
+         <iframe src="http://www.youtube.com/embed/W7qWa52k-nE" style="padding:20px;" width="570" height="335" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 </div>
 
 
 <!-- Blog Wise Card -->
-<div class="container container-post" style="margin-top:200px;">
+<div class="container container-post">
 	<center><h1 style="margin-top:50px;margin-bottom:50px;">Related Post Information</h1></center>
 	<div class="row">
 	<?php 
@@ -332,7 +336,7 @@ Cloud
 	{
 	
 	?>
-		<div class="card">
+		<div class="card1">
   			<img src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Denim Jeans" class="blog-image">
 				<p class="post_title"><?php echo $row['title'];?></p>
         <p class="post_desc"><?php echo $row['description'];?></p>
@@ -363,7 +367,7 @@ Cloud
 	{
 	
 	?>
-		<div class="card">
+		<div class="card1">
   			<img src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Denim Jeans" class="blog-image">
 				<p class="post_title"><?php echo $row['title'];?></p>
         <p class="post_desc"><?php echo $row['description'];?></p>
@@ -395,7 +399,7 @@ Cloud
 	{
 	
 	?>
-		<div class="card">
+		<div class="card1">
   			<img src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Denim Jeans" class="blog-image">
 				<p class="post_title"><?php echo $row['title'];?></p>
         <p class="post_desc"><?php echo $row['description'];?></p>
@@ -417,5 +421,4 @@ Cloud
     </div>-->
 	</div>
 </div>
-
 <?php include 'footer.php';?>

@@ -1,3 +1,4 @@
+
 .social-menu-section {
 	padding: 0px 70px;
 	background-color: rgb(11, 87, 144) !important;
@@ -248,6 +249,11 @@ ul.list-inline.text-center {
   transform: scale(1.2); 
 }
 
+.data-link:hover{
+  text-decoration: none;
+  
+}
+
 .android-icon{
 	font-size: 100px;
     padding: 50px;
@@ -263,13 +269,15 @@ ul.list-inline.text-center {
     font-family: cursive;
     text-align: center;
     margin-top: -30px;
+    text-decoration: none;
 }
 
 
-.card {
+.card1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
+
   text-align: center;
   font-family: arial;
 }
@@ -289,6 +297,7 @@ ul.list-inline.text-center {
   cursor: pointer;
   width: 100%;
   font-size: 18px;
+
 }
 
 .card button:hover {
@@ -329,6 +338,7 @@ ul.list-inline.text-center {
 
 .Intro-img{
   border-radius: 10px !important;
+  padding: 20px;
 }
 
 /* Category Css */
@@ -548,3 +558,15 @@ ul.list-inline.text-center {
    -webkit-box-orient: vertical;
 }
 
+/*For Sticky Header menu*/
+#navbar {
+  overflow: hidden;
+  background-color: #fff;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%; 
+ 
+ 
+}
