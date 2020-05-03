@@ -322,7 +322,7 @@ Cloud
 
 
 <!-- Blog Wise Card -->
-<div class="container" style="margin-top:200px;">
+<div class="container container-post" style="margin-top:200px;">
 	<center><h1 style="margin-top:50px;margin-bottom:50px;">Related Post Information</h1></center>
 	<div class="row">
 	<?php 
@@ -333,7 +333,7 @@ Cloud
 	
 	?>
 		<div class="card">
-  			<img src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Denim Jeans" class="blog-image">
+  			<img src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Denim Jeans" class="blog-image">
 				<p class="post_title"><?php echo $row['title'];?></p>
         <p class="post_desc"><?php echo $row['description'];?></p>
 		</div>
@@ -354,7 +354,7 @@ Cloud
   </div>
 </div>
 
-<div class="container">
+<div class="container container-post">
   <div class="row">
    <?php 
 	$sql1="select  * from tbldata where type='Mediators' ORDER BY storeDate desc LIMIT 3";
@@ -364,7 +364,7 @@ Cloud
 	
 	?>
 		<div class="card">
-  			<img src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Denim Jeans" class="blog-image">
+  			<img src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Denim Jeans" class="blog-image">
 				<p class="post_title"><?php echo $row['title'];?></p>
         <p class="post_desc"><?php echo $row['description'];?></p>
 		</div>
@@ -386,7 +386,7 @@ Cloud
 	</div>
 </div>
 
-<div class="container" style="margin-top:-100px;">
+<div class="container container-post" style="margin-top:-100px;">
   <div class="row">
    <?php 
 	$sql1="select  * from tbldata where type='Advanced' ORDER BY storeDate desc LIMIT 3";
@@ -396,7 +396,7 @@ Cloud
 	
 	?>
 		<div class="card">
-  			<img src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Denim Jeans" class="blog-image">
+  			<img src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Denim Jeans" class="blog-image">
 				<p class="post_title"><?php echo $row['title'];?></p>
         <p class="post_desc"><?php echo $row['description'];?></p>
 		</div>

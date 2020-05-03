@@ -420,6 +420,9 @@ ul.list-inline.text-center {
 
 .container {
   width: 100%;
+  /*height:540px;*/
+}
+.container-post {
   height:540px;
 }
 #learn-more {
