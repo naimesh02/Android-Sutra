@@ -1,5 +1,5 @@
 <div class="footer">
-	<div class="container-fluid" id="contact-bar">
+	<div class="container-fluid container-footer" id="contact-bar">
     <img src="Images/Footer-logo.png" class="footer-logo"></img>  
   		<ul class="list-inline text-center">
     		<li>
