@@ -17,7 +17,7 @@
 	
 		 <div class="w3-third w3-center" id="w3-card-content">
 
-    		<p class="category-title"><?php echo $row['title']; ?></p>
+    		<a href="view-category.php"><p class="category-title"><?php echo $row['title']; ?></p></a>
         	<p class="category-desc"><?php echo $row['description']; ?></p>
     	</p>
     	</div>
