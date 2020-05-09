@@ -1,6 +1,5 @@
 <?php include 'header.php' ?>
 
-<div class='container'>
 	<div id='content' class='row-fluid'>
 		<div class='span2 sidebar'>
 			<img src="Images\Fotojet.jpg"></img>
@@ -21,6 +20,6 @@
 			<img src="Images\Fotojet.jpg"></img>
 		</div>
 	</div>
-</div>
+
 <br><br>
 <?php include 'footer.php' ?>

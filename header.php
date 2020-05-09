@@ -21,7 +21,6 @@
 <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-	
 <body>
 
 <div class="social-menu-section">
@@ -33,21 +32,28 @@
 
 <div class="navigation-menu">
 <div id="navbar">
+  
 <header class="header">
+
 <a href="index.php">
     <h1 class="logo">
       <img src="Images/Header-Logo.png" style="width:40%;"></img>
     </h1></a>
-      <ul class="main-nav">
+      <ul class="main-nav topnav" id="myTopnav">
           <li><a href="#" class="font-color">RXJAVA</a></li>
           <li><a href="#" class="font-color">BLOGS</a></li>
           <li><a href="#" class="font-color">STORE</a></li>
           <li><a href="#" class="font-color">MAGAZINE</a></li>
           <li><a href="#" class="font-color">TIPS</a></li>
           <li><a href="#" class="font-color">GITHUB</a></li>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i></a>
       </ul>
+
   </header> 
+
   </div>
+</div>
 </div>
 
 
@@ -62,6 +68,18 @@ function myFunction() {
     navbar.classList.add("sticky")
   } else {
     navbar.classList.remove("sticky");
+  }
+}
+</script>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  var classes=x.className;
+  
+  if (x.className === "main-nav topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "main-nav topnav";
   }
 }
 </script>
