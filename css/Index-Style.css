@@ -659,11 +659,14 @@ ul.list-inline.text-center {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+    margin-top: 0px !important;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 63px;
-    top: 0;
+    top: -21px !important ;
   }
   .topnav.responsive a {
     float: none;
@@ -680,16 +683,17 @@ ul.list-inline.text-center {
   margin-left: auto !important; 
   margin-right: auto !important; 
   display: block !important; 
-
+}
 
   /*Pagination blocks */
 
-.pagination-section {
-  margin: 5rem 0;
+
+
+.pagination-section{
+   margin: 5rem 0;
   display: grid;
   place-items: center;
 }
-
 .pagination {
   list-style-type: none;
   display: flex;
@@ -710,15 +714,17 @@ ul.list-inline.text-center {
 
 
 /*=======*/
-/*html, body
+html, body
 {
   overflow-x: hidden;
-}*/
+}
 /****--------------- Media Query ---------------****/
 @media (min-width: 320px) and (max-width: 480px) {
 
-  body { padding-left: 0px !important; padding-right:0px !important; }
+  body { padding-left: 0px !important; padding-right:0px !important;width: 100% !important; }
   .logo { padding-left: 20px !important; margin:15px !important;  }
+  .header{width: 100% !important;}
+  .sticky{width: 400px !important; }
   .h-logo { width:60% !important; }
   .main-nav { margin-top: -57px !important; }
   .advertisment { width: 100% !important; }
@@ -736,7 +742,7 @@ ul.list-inline.text-center {
   .circle_category { margin-top: -125px !important; }
   .intro_title { font-size: 24px !important; margin-top: -100px !important;  }
   .intro_content{ padding-left: 2px !important;padding-right: 15px !important; }
-  .intro_video { width: 280 !important; height: 200 !important; }
+  .intro_video { width: 100% !important; height: 200 !important; }
   .rel_post_title{ font-size: 24px !important; }
   .rel_post_blog{ width: 100% !important; }
 
