@@ -6,8 +6,8 @@
 <div class="advertisment">
 	<div class="main-box">
 		<div class="inner-box">
-			<h2>Share Buttons for Your Website</h2>
-			<span>Our new share biuttons are mobile friendly, fast and drop dead goreous</span>
+			<h2 class="adv_title">Share Buttons for Your Website</h2>
+			<span class="adv_subcontent">Our new share biuttons are mobile friendly, fast and drop dead goreous</span>
 				<div>
 					<button type="button" class="btn btn-success btn-size">Open</button>
 				</div>
@@ -20,7 +20,7 @@
 <!-- Blog -->
 <div class="container">
 	<h3 class="blog-title">Android working with ViewPager2, TabLayout and Page Transformers</h3>
-	<div class="row">
+	<div class="row blog_row">
     	<div class="beginner-blog">
     	<a href="Data.php?type=Beginners" class="data-link">	<i class="fa fa-android android-icon" aria-hidden="true"></i>
     		<span class="android-content">Beginners</span></a>
@@ -41,8 +41,8 @@
 
 <!-- Category -->
 <div class="container" style="margin-top:50px;">
-	<center><h1 style="font-size: 50px;">Category</h1></center>
-  <svg id="circle-nav-services" class="" width="100%" height="100%" viewBox="0 0 650 550">
+	<center><h1 class="cate_title">Category</h1></center>
+  <svg id="circle-nav-services" class="circle_category" width="100%" height="100%" viewBox="0 0 650 550">
     <defs>
     <filter id="service-shadow" height="2" width="2" y="-.5" x="-.5">
       <feOffset result="offOut" in="SourceGraphic" dx="0" dy="5" />
@@ -306,9 +306,9 @@ Cloud
 <!-- Android Description -->
 <div class="container">
   <center> 
-    <h1>Introduction For Android</h1>
+    <h1 class="intro_title">Introduction For Android</h1>
   </center> 
-  <div class="row" style="margin-top:50px;">      
+  <div class="row intro_content" style="margin-top:50px;">      
    <p class="Intro"><b>Android</b> is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance, with the main contributor and commercial marketer being Google</p>
 
    <p class="Intro">Initially developed by Android Inc., which Google bought in 2005, Android was unveiled in 2007, with the first commercial Android device launched in September 2008. The current stable version is Android 10, released on September 3, 2019. The core Android source code is known as Android Open Source Project (AOSP), which is primarily licensed under the Apache License. This has allowed variants of Android to be developed on a range of other electronics, such as game consoles, digital cameras, PCs and others, each with a specialized user interface. Some well known derivatives include Android TV for televisions and Wear OS for wearables, both developed by Google.</p>
@@ -319,7 +319,7 @@ Cloud
     </div>
  
     <div class="col-xs-6">
-         <iframe src="http://www.youtube.com/embed/W7qWa52k-nE" style="padding:20px;" width="570" height="335" frameborder="0" allowfullscreen></iframe>
+         <iframe src="http://www.youtube.com/embed/W7qWa52k-nE" style="padding:20px;" class="intro_video" width="570" height="335" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 </div>
@@ -327,8 +327,8 @@ Cloud
 
 <!-- Blog Wise Card -->
 <div class="container container-post">
-	<center><h1 style="margin-top:50px;margin-bottom:50px;">Related Post Information</h1></center>
-	<div class="row">
+	<center><h1 class="rel_post_title" style="margin-top:50px;margin-bottom:50px;">Related Post Information</h1></center>
+	<div class="row rel_post_blog">
 	<?php 
 	$sql1="select  * from tbldata where type='Beginners' ORDER BY storeDate desc LIMIT 3";
 	$querys=mysqli_query($conn,$sql1);
@@ -344,17 +344,6 @@ Cloud
 <?php
 }
 ?>
-	<!--	<div class="card">
-  			<img src="https://www.androidhive.info/wp-content/uploads/2019/03/android-using-font-awesome-icon-collection-370x247.png" alt="Denim Jeans" class="blog-image">
-				<p class="post_title">Some text about the jeans..</p>
-        <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
-		</div>
-
-    <div class="card">
-        <img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
-        <p class="post_title">Some text about the jeans..</p>
-        <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
-    </div>-->
   </div>
 </div>
 
@@ -375,18 +364,6 @@ Cloud
 <?php
 }
 ?>
-
- <!--   <div class="card">
-        <img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
-        <p class="post_title">Some text about the jeans..</p>
-        <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
-    </div>
-
-    <div class="card">
-        <img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
-        <p class="post_title">Some text about the jeans..</p>
-        <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
-    </div>-->
 	</div>
 </div>
 
@@ -408,17 +385,6 @@ Cloud
 <?php
 }
 ?>
- <!--   <div class="card">
-        <img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
-        <p class="post_title">Some text about the jeans..</p>
-        <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
-    </div>
-
-    <div class="card">
-        <img src="https://www.androidhive.info/wp-content/uploads/2020/01/banner-370x247.jpeg" alt="Denim Jeans" class="blog-image">
-        <p class="post_title">Some text about the jeans..</p>
-        <p class="post_desc">Android is a mobile operating system based on a modified version of the Linux kernel and other open source software</p>
-    </div>-->
 	</div>
 </div>
 <?php include 'footer.php';?>
