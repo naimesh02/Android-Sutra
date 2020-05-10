@@ -204,10 +204,10 @@ ul.list-inline.text-center {
     margin-top: 20px;
 }
 
-* {
+/** {
   box-sizing: border-box;
 }
-
+*/
 
 .beginner-blog {
   border-radius: 10px !important;
@@ -316,12 +316,15 @@ ul.list-inline.text-center {
 
 /* Related Post CSS */
 .post_title{
+  margin: 15px;
   font-weight: bold;
   font-size: 20px;
+
   text-decoration: underline !important;
 }
 
 .post_desc{
+  margin: 5px;
   font-size: 17px;
   text-align: center;
   overflow: hidden;
@@ -575,8 +578,8 @@ ul.list-inline.text-center {
 
 /*For Sticky Header menu*/
 .navbar1 {
-  overflow: hidden;
-  background-color: #fff;
+  overflow: hidden !important;
+  background-color: #fff !important;
 }
 .sticky {
   position: fixed;
@@ -660,4 +663,13 @@ ul.list-inline.text-center {
     display: block;
     text-align: left;
   }
+}
+
+/*Pagination container*/
+.pagination{
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  margin-left: auto !important; 
+  margin-right: auto !important; 
+  display: block !important; 
 }
