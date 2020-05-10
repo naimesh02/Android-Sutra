@@ -328,7 +328,7 @@ Cloud
 <!-- Blog Wise Card -->
   <div class="container">
   <center><h1 class="rel_post_title" style="margin-top:50px;margin-bottom:50px;">Related Post Information</h1></center>
-  <div class="row rel_post_blog">
+  <div class="row" >
   <?php 
   $sql1="select  * from tbldata where type='Beginners' ORDER BY storeDate desc LIMIT 3";
   $querys=mysqli_query($conn,$sql1);
@@ -336,7 +336,7 @@ Cloud
   {
   
   ?>
-  <div class="col-xs-3" style="margin: 30px;">
+  <div class="col-xs-3 card1Container">
       <div class="card1">
         <img class="card-img-top blog-image" src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block">
@@ -362,7 +362,7 @@ Cloud
   {
   
   ?>
-     <div class="col-xs-3" style="margin: 30px;"> 
+     <div class="col-xs-3 card1Container"> 
       <div class="card1">
         <img class="card-img-top blog-image" src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap" style="width: 100%;">
         <div class="card-block">
@@ -379,7 +379,7 @@ Cloud
 </div>
 
 <div class="container">
-  <div class="row rel_post_blog">
+  <div class="row">
    <?php 
   $sql1="select  * from tbldata where type='Advanced' ORDER BY storeDate desc LIMIT 3";
   $querys=mysqli_query($conn,$sql1);
@@ -387,7 +387,7 @@ Cloud
   {
   
   ?>
-   <div class="col-xs-3" style="margin: 30px;">
+   <div class="col-xs-3 card1Container">
       <div class="card1">
         <img class="card-img-top blog-image" src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block">

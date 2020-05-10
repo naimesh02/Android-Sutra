@@ -1,12 +1,14 @@
-const firstLinks = document.querySelectorAll(".first a");
+const firstPageLinks = document.querySelectorAll(".firstPage a");
+alert(firstPageLinks);
 // JS code needed for first pagination effect
-firstLinks.forEach((link) => {
+firstPageLinks.forEach((link) => {
   link.addEventListener("mouseover", mouseOverEvent);
   link.addEventListener("mouseleave", mouseLeaveEvent);
 });
 
 function mouseOverEvent(e) {
-  firstLinks.forEach((link) => {
+	alert('hello');
+  firstPageLinks.forEach((link) => {
     link.style.opacity = 0.7;
   });
 
@@ -15,7 +17,8 @@ function mouseOverEvent(e) {
 }
 
 function mouseLeaveEvent(e) {
-  firstLinks.forEach((link) => {
+	alert('leave');
+  firstPageLinks.forEach((link) => {
     link.style.opacity = 1;
     e.target.style.transform = "scale(1)";
   });

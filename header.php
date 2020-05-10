@@ -40,7 +40,7 @@
   
 <header class="header">
 
-<a href="index.php">
+<a href="index.php" class="header-logo">
     <h1 class="logo">
       <img src="Images/Header-Logo.png" class="h-logo"></img>
     </h1></a>

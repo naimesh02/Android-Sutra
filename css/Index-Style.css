@@ -280,15 +280,21 @@ ul.list-inline.text-center {
     margin-top: -30px;
     text-decoration: none;
 }
-
+.header-logo{
+  width: 55% !important;
+}
 
 .card1 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgb(119, 134, 145);
   max-width: 300px;
   margin: auto;
 
   text-align: center;
   font-family: arial;
+}
+.card1Container{
+margin: 20px;
+padding: 21px;
 }
 
 .price {
@@ -701,13 +707,13 @@ ul.list-inline.text-center {
 
 .pagination a {
   text-decoration: none;
-  background: teal;
+  background: #0B5790;
   color: #fff;
   padding: 0.75rem 1rem;
-  border: 1px solid teal;
+  border: 1px solid #0B5790;
 }
 
-.first a {
+.firstPage a {
   display: inline-block;
   transition: all 300ms linear;
 }

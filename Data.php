@@ -1,6 +1,6 @@
 <?php include 'header.php';?>
 <?php include 'conn.php';?>
-<link rel="stylesheet" type="text/css" href="css/Index-Style.css">
+
 
 <?php 
 $results_per_page=2;
@@ -41,21 +41,22 @@ while($row=mysqli_fetch_array($cat))
 <?php 
 }
 ?>
-<div class="container pagination-div">
-	<div class="row">
-		<div class="col-sm-6"></div>
-		<div class="col-sm-6">
-<?php
-for($i=1;$i<=$num_of_pages;$i++){
-	echo '<a href="Data.php?type='.$_GET['type'].'&page='.$i.'" style="font-size:17px;padding:5px;color:black">'.$i.'</a>';
-}
-?>
+
 </div>
 </div>
 </div>
  <div class="pagination-section">
-      <ul class="pagination first">
-        <li><a href="#">Prev</a></li>
+      <ul class="pagination firstPage">
+      	<li><a href="#">Prev</a></li>
+<?php
+for($i=1;$i<=$num_of_pages;$i++){
+	echo '<li><a href="Data.php?type='.$_GET['type'].'&page='.$i.'" >'.$i.'</a></li>';
+}
+?>
+ <li><a href="#">Next</a></li>
+ </ul>
+    </div>
+      <!--   <li><a href="#">Prev</a></li>
         <li><a href="#">1</a></li>
         <li><a href="#">2</a></li>
         <li><a href="#">3</a></li>
@@ -67,7 +68,8 @@ for($i=1;$i<=$num_of_pages;$i++){
         <li><a href="#">9</a></li>
         <li><a href="#">Next</a></li>
       </ul>
-    </div>
+    </div> -->
 
 
 <?php include 'footer.php';?>
+<!-- <script type="text/javascript" src='js/paginationJs.js'></script> -->
