@@ -1,5 +1,5 @@
 const firstPageLinks = document.querySelectorAll(".firstPage a");
-alert(firstPageLinks);
+// alert(firstPageLinks);
 // JS code needed for first pagination effect
 firstPageLinks.forEach((link) => {
   link.addEventListener("mouseover", mouseOverEvent);
