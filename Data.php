@@ -41,7 +41,7 @@ while($row=mysqli_fetch_array($cat))
 <?php 
 }
 ?>
-<div class="container pagination">
+<div class="container pagination-div">
 	<div class="row">
 		<div class="col-sm-6"></div>
 		<div class="col-sm-6">
@@ -53,6 +53,21 @@ for($i=1;$i<=$num_of_pages;$i++){
 </div>
 </div>
 </div>
+ <div class="pagination-section">
+      <ul class="pagination first">
+        <li><a href="#">Prev</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">7</a></li>
+        <li><a href="#">8</a></li>
+        <li><a href="#">9</a></li>
+        <li><a href="#">Next</a></li>
+      </ul>
+    </div>
 
 
 <?php include 'footer.php';?>

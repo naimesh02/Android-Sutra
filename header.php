@@ -11,11 +11,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+
+
     <link rel="stylesheet" type="text/css" href="css/Index-Style.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'> -->
     <link rel="stylesheet" href="category-style.css">
-<!--  <script src="js/stickyHeader.js"></script>-->
+    <script type="text/javascript" src="js/paginationJs.js"></script>
+
 
 <!-- SiderBar CSS -->
 <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
@@ -38,7 +42,7 @@
 
 <a href="index.php">
     <h1 class="logo">
-      <img src="Images/Header-Logo.png" style="width:40%;"></img>
+      <img src="Images/Header-Logo.png" class="h-logo"></img>
     </h1></a>
       <ul class="main-nav topnav" id="myTopnav">
           <li><a href="#" class="font-color">RXJAVA</a></li>
@@ -47,8 +51,9 @@
           <li><a href="#" class="font-color">MAGAZINE</a></li>
           <li><a href="#" class="font-color">TIPS</a></li>
           <li><a href="#" class="font-color">GITHUB</a></li>
-         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i></a>
+          <li></li>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i></a>
       </ul>
 
   </header> 
