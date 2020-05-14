@@ -28,7 +28,7 @@
 <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-<body onload="myContent();">
+<body>
 
 <div class="social-menu-section">
      <a href="#" class="fa fa-facebook"></a>
@@ -92,4 +92,3 @@ function myFunction() {
   }
 }
 </script>
-<script type="text/javascript" src="js/loadPage.js"></script>
