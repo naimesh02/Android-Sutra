@@ -50,7 +50,7 @@ while($row=mysqli_fetch_array($cat))
       	<li><a href="#">Prev</a></li>
 <?php
 for($i=1;$i<=$num_of_pages;$i++){
-	echo '<li><a href="Data.php?type='.$_GET['type'].'&page='.$i.'" >'.$i.'</a></li>';
+	echo '<li><a href="Data.php?type='.$_GET['type'].'&page='.$i.'" class="pages" >'.$i.'</a></li>';
 }
 ?>
  <li><a href="#">Next</a></li>

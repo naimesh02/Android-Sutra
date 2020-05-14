@@ -15,10 +15,12 @@
 
 
     <link rel="stylesheet" type="text/css" href="css/Index-Style.css">
+    <link rel="stylesheet" type="text/css" href="css/loader.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'> -->
     <link rel="stylesheet" href="category-style.css">
     <script type="text/javascript" src="js/paginationJs.js"></script>
+
 
 
 <!-- SiderBar CSS -->
@@ -26,7 +28,7 @@
 <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-<body>
+<body onload="myContent();">
 
 <div class="social-menu-section">
      <a href="#" class="fa fa-facebook"></a>
@@ -90,3 +92,4 @@ function myFunction() {
   }
 }
 </script>
+<script type="text/javascript" src="js/loadPage.js"></script>
