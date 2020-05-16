@@ -1,12 +1,3 @@
-<!-- <div class="spinner-box" id="loader">
-  <div class="leo-border-1">
-    <div class="leo-core-1"></div>
-  </div> 
-  <div class="leo-border-2">
-    <div class="leo-core-2"></div>
-  </div> 
-</div> 
-<div id="content">-->
 <?php include 'header.php';?>
 <?php include 'conn.php';?>
 
@@ -29,7 +20,17 @@
 
 <!-- Blog -->
 <div class="container">
-	<h3 class="blog-title">Android working with ViewPager2, TabLayout and Page Transformers</h3>
+	<div class="container_title">
+		<div class="decorative-title">
+			<div class="decorative-bar left vertical thick"></div>
+			<div class="decorative-bar left horizontal thick"></div>
+			<div class="decorative-bar left horizontal thin"></div>
+			<span>ANDROID WORKING WITH VIEWPAGER2, TABLAYOUT AND PAGE TRANSFORMERS</span>
+			<div class="decorative-bar right vertical thick"></div>
+			<div class="decorative-bar right horizontal thick"></div>
+			<div class="decorative-bar right horizontal thin"></div>
+		</div>
+	</div>
 	<div class="row blog_row">
     	<div class="beginner-blog">
     	<a href="Data.php?type=Beginners" class="data-link">	<i class="fa fa-android android-icon" aria-hidden="true"></i>
@@ -51,7 +52,17 @@
 
 <!-- Category -->
 <div class="container" style="margin-top:50px;">
-	<center><h1 class="cate_title">Category</h1></center>
+	<div class="container_title">
+		<div class="decorative-title">
+			<div class="decorative-bar left vertical thick"></div>
+			<div class="decorative-bar left horizontal thick"></div>
+			<div class="decorative-bar left horizontal thin"></div>
+			<span>CATEGORY</span>
+			<div class="decorative-bar right vertical thick"></div>
+			<div class="decorative-bar right horizontal thick"></div>
+			<div class="decorative-bar right horizontal thin"></div>
+		</div>
+	</div>
   <svg id="circle-nav-services" class="circle_category" width="100%" height="100%" viewBox="0 0 650 550">
     <defs>
     <filter id="service-shadow" height="2" width="2" y="-.5" x="-.5">
@@ -315,11 +326,19 @@ Cloud
 
 <!-- Android Description -->
 <div class="container">
-  <center> 
-    <h1 class="intro_title">Introduction For Android</h1>
-  </center> 
+	<div class="container_title">
+		<div class="decorative-title">
+			<div class="decorative-bar left vertical thick"></div>
+			<div class="decorative-bar left horizontal thick"></div>
+			<div class="decorative-bar left horizontal thin"></div>
+			<span>INTRODUCTION TO ANDROID</span>
+			<div class="decorative-bar right vertical thick"></div>
+			<div class="decorative-bar right horizontal thick"></div>
+			<div class="decorative-bar right horizontal thin"></div>
+		</div>
+	</div>
   <div class="row intro_content" style="margin-top:50px;">      
-   <p class="Intro"><b>Android</b> is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance, with the main contributor and commercial marketer being Google</p>
+   <p class="Intro"><b>Android</b> is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance, with the main contributor and commercial marketer being Google.</p>
 
    <p class="Intro">Initially developed by Android Inc., which Google bought in 2005, Android was unveiled in 2007, with the first commercial Android device launched in September 2008. The current stable version is Android 10, released on September 3, 2019. The core Android source code is known as Android Open Source Project (AOSP), which is primarily licensed under the Apache License. This has allowed variants of Android to be developed on a range of other electronics, such as game consoles, digital cameras, PCs and others, each with a specialized user interface. Some well known derivatives include Android TV for televisions and Wear OS for wearables, both developed by Google.</p>
 
@@ -336,82 +355,8 @@ Cloud
 
 
 <!-- Blog Wise Card -->
-  <div class="container">
-  <center><h1 class="rel_post_title" style="margin-top:50px;margin-bottom:50px;">Related Post Information</h1></center>
-  <div class="row" >
-  <?php 
-  $sql1="select  * from tbldata where type='Beginners' ORDER BY storeDate desc LIMIT 3";
-  $querys=mysqli_query($conn,$sql1);
-  while($row=mysqli_fetch_array($querys))
-  {
   
-  ?>
-  <div class="col-xs-3 card1Container">
-      <div class="card1">
-        <img class="card-img-top blog-image" src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
-          <p class="card-text post_desc"><?php echo $row['description'];?></p>
-         
-        </div>
-      </div>
-    </div>
-  
-<?php
-}
-?>
-  </div>
-</div>
 
-<div class="container">
-  <div class="row rel_post_blog">
-   <?php 
-  $sql1="select  * from tbldata where type='Mediators' ORDER BY storeDate desc LIMIT 3";
-  $querys=mysqli_query($conn,$sql1);
-  while($row=mysqli_fetch_array($querys))
-  {
-  
-  ?>
-     <div class="col-xs-3 card1Container"> 
-      <div class="card1">
-        <img class="card-img-top blog-image" src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap" style="width: 100%;">
-        <div class="card-block">
-          <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
-          <p class="card-text post_desc"><?php echo $row['description'];?></p>
-         
-        </div>
-      </div>
-    </div>
-<?php
-}
-?>
-  </div>
-</div>
-
-<div class="container">
-  <div class="row">
-   <?php 
-  $sql1="select  * from tbldata where type='Advanced' ORDER BY storeDate desc LIMIT 3";
-  $querys=mysqli_query($conn,$sql1);
-  while($row=mysqli_fetch_array($querys))
-  {
-  
-  ?>
-   <div class="col-xs-3 card1Container">
-      <div class="card1">
-        <img class="card-img-top blog-image" src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
-          <p class="card-text post_desc"><?php echo $row['description'];?></p>
-         
-        </div>
-      </div>
-    </div>
-<?php
-}
-?>
-  </div>
-</div>
 
 <?php include 'footer.php';?>
 <!-- </div> -->
