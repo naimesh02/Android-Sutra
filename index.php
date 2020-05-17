@@ -401,10 +401,10 @@ Cloud
   ?>
   <div class="col-xs-3 card1Container">
       <div class="card1">
-        <img class="card-img-top blog-image" src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap" style="width: 100%;">
-        <div class="card-block">
+        <img class="card-img-top blog-image" src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap" style="width: 100%;">
+        <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
-          <p class="card-text post_desc"><?php echo $row['description'];?></p>
+          <p class="card-text post_desc"><?php echo $row['description'];?><a href=''>Read More</a></p>
          
         </div>
       </div>
@@ -427,10 +427,10 @@ Cloud
   ?>
      <div class="col-xs-3 card1Container"> 
       <div class="card1">
-        <img class="card-img-top blog-image" src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap" style="width: 100%;">
-        <div class="card-block">
+        <img class="card-img-top blog-image" src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap" style="width: 100%;">
+        <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
-          <p class="card-text post_desc"><?php echo $row['description'];?></p>
+          <p class="card-text post_desc"><?php echo $row['description'];?><a href=''>Read More</a></p>
          
         </div>
       </div>
@@ -452,10 +452,10 @@ Cloud
   ?>
    <div class="col-xs-3 card1Container">
       <div class="card1">
-        <img class="card-img-top blog-image" src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap" style="width: 100%;">
-        <div class="card-block">
+        <img class="card-img-top blog-image" src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap" style="width: 100%;">
+        <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
-          <p class="card-text post_desc"><?php echo $row['description'];?></p>
+          <p class="card-text post_desc"><?php echo $row['description'];?><a href=''>Read More</a></p>
          
         </div>
       </div>

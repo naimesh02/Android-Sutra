@@ -8,10 +8,13 @@
 	while($row=mysqli_fetch_array($cat))
 {
 ?>
-<div class="w3-panel w3-card">
+<div class="w3-panel w3-card w3-categorycard">
 	<div class="w3-row">
 		 <div class="w3-third w3-center">
-			<img src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image']; ?>" class="category-img" alt="Denim Jeans">
+		 	<div class="w3-panel w3-card w3-card-view">
+			<img src="../../AdminAndroid/Admin/upload/<?php echo $row['image']; ?>" class="category-img" alt="
+			Denim Jeans">
+		</div>
 		</div>
 
 	

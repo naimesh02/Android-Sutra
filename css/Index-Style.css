@@ -114,6 +114,10 @@ color:rgb(37, 144, 202) !important;
 	text-align:center;
 	padding: 5px 0px 15px;
 }
+.card-data{
+  padding: 6px;
+    margin: 5px;
+}
 /* ================================= 
   Media Queries
 ==================================== */
@@ -608,8 +612,22 @@ margin: 20px;
 
 
 /*category-card data content css*/
+.w3-card-view{
+  margin:25px;
+   border-radius: 3%!important;
+  box-shadow: 2px 2px 4px 4px rgb(119, 134, 145) !important;
+}
+.w3-card-view img{
+ 
+  height: 30%;
+
+}
+.w3-categorycard{
+    margin-bottom: 42px !important;
+}
 #w3-card-content{
   width: 60%;
+margin-left: 40px;
 
  }
  /* View Category */
