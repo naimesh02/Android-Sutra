@@ -43,17 +43,15 @@
 
 <!-- Blog -->
 <div class="container">
-	<div class="container_title">
-		<div class="decorative-title">
-			<div class="decorative-bar left vertical thick"></div>
-			<div class="decorative-bar left horizontal thick"></div>
-			<div class="decorative-bar left horizontal thin"></div>
-			<span>ANDROID WORKING WITH VIEWPAGER2, TABLAYOUT AND PAGE TRANSFORMERS</span>
-			<div class="decorative-bar right vertical thick"></div>
-			<div class="decorative-bar right horizontal thick"></div>
-			<div class="decorative-bar right horizontal thin"></div>
-		</div>
-	</div>
+    <div class="container_title">
+        <div class="decorative-title">
+            <center>
+           <h2 class="head-title">ANDROID WORKING WITH VIEWPAGER2, TABLAYOUT AND PAGE TRANSFORMERS</h2>
+           </center>
+           </div>
+    </div>
+	
+	
 	<div class="row blog_row">
     	<div class="beginner-blog">
     	<a href="Data.php?type=Beginners" class="data-link">	<i class="fa fa-android android-icon" aria-hidden="true"></i>
@@ -401,7 +399,7 @@ Cloud
   ?>
   <div class="col-xs-3 card1Container">
       <div class="card1">
-        <img class="card-img-top blog-image" src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap" style="width: 100%;">
+        <img class="card-img-top blog-image" src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
           <p class="card-text post_desc"><?php echo $row['description'];?><a href=''>Read More</a></p>
@@ -427,7 +425,7 @@ Cloud
   ?>
      <div class="col-xs-3 card1Container"> 
       <div class="card1">
-        <img class="card-img-top blog-image" src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap" style="width: 100%;">
+        <img class="card-img-top blog-image" src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
           <p class="card-text post_desc"><?php echo $row['description'];?><a href=''>Read More</a></p>
@@ -452,7 +450,7 @@ Cloud
   ?>
    <div class="col-xs-3 card1Container">
       <div class="card1">
-        <img class="card-img-top blog-image" src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap" style="width: 100%;">
+        <img class="card-img-top blog-image" src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
           <p class="card-text post_desc"><?php echo $row['description'];?><a href=''>Read More</a></p>
