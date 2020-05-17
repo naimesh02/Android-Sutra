@@ -1,7 +1,19 @@
 <?php include 'header.php';?>
 <?php include 'conn.php';?>
 
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div class="w3-container">
+   <div class="container_title">
+    <div class="decorative-title">
+      <div class="decorative-bar left vertical thick"></div>
+      <div class="decorative-bar left horizontal thick"></div>
+      <div class="decorative-bar left horizontal thin"></div>
+      <span>DATA FOR <?php echo strtoupper($_GET['type']);?></span>
+      <div class="decorative-bar right vertical thick"></div>
+      <div class="decorative-bar right horizontal thick"></div>
+      <div class="decorative-bar right horizontal thin"></div>
+    </div>
+  </div>
 <?php 
 $results_per_page=2;
 $qry="SELECT * FROM `tbldata` where type='".$_GET['type']."'";
@@ -27,17 +39,25 @@ $cat=mysqli_query($conn,$qry);
 while($row=mysqli_fetch_array($cat))
 {
 ?>
-<div class="container">
-	<div class="row category-row">
-		<div class="col-sm-4">
-			<img src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image']; ?>" class="category-img" alt="Denim Jeans">
-		</div>
-		<div class="col-sm-8">
-			<p class="category-title"><?php echo $row['title']; ?></p>
-			<p class="category-desc"><?php echo $row['description']; ?></p>
-		</div>
-	</div>
-</div>	
+<div class="w3-panel w3-card w3-categorycard">
+  <div class="w3-row">
+     <div class="w3-third w3-center">
+      <div class="w3-panel w3-card w3-card-view">
+      <img src="../../AdminAndroid/Admin/upload/<?php echo $row['image']; ?>" class="category-img" alt="
+      Denim Jeans">
+    </div>
+    </div>
+
+  
+     <div class="w3-third w3-center" id="w3-card-content">
+
+        <a href="view-category.php"><p class="category-title"><?php echo $row['title']; ?></p></a>
+          <p class="category-desc"><?php echo $row['description']; ?></p>
+      </p>
+      </div>
+    </div>
+</div>  
+
 <?php 
 }
 ?>
@@ -56,6 +76,8 @@ for($i=1;$i<=$num_of_pages;$i++){
  <li><a href="#">Next</a></li>
  </ul>
     </div>
+  </div>
+
       <!--   <li><a href="#">Prev</a></li>
         <li><a href="#">1</a></li>
         <li><a href="#">2</a></li>
