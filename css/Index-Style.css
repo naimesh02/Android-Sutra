@@ -614,10 +614,12 @@ margin: 20px;
  }
  /* View Category */
  .center {
+  margin: 30px auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
+  height: 400px !important;
 }
 .category-content{
   text-align:justify;
@@ -625,7 +627,16 @@ margin: 20px;
   line-height: 1.7;
 
 }
-
+.cat_title_1{
+  font-size: 20px;
+  text-decoration-style: double;
+  text-decoration-line: underline;
+}
+.cat_content_1{
+  font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
+}
 
 /*To create responsive menu add new css in header*/
  .topnav {
@@ -791,6 +802,9 @@ margin: 20px;
   width: 80%;
   height: 2px;
 }
+
+
+
 
 
 
