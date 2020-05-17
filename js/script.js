@@ -212,3 +212,4 @@ createPointer();
 
 //Adding it immediately triggers a bug for the transform
 setTimeout(() => jQuery("#service-collection .serv-0").addClass("active"), 200);
+
