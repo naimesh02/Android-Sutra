@@ -1,9 +1,18 @@
+<div class="container" >
+<center>
+<div class="loader-container" id="loader">
+  <div class="loader-10"></div>
+</div>
+
+</center>
+</div>
+<div id="content" style="display:none;">
 <?php include 'header.php';?>
 <?php include 'conn.php';?>
 
-
+</div>
 <!-- Advertisment -->
-
+<div id="content1" style="display:none;">
 <div class="advertisment">
 	<div class="main-box">
 		<div class="inner-box">
@@ -359,5 +368,5 @@ Cloud
 
 
 <?php include 'footer.php';?>
-<!-- </div> -->
+</div>
 <!-- 

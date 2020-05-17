@@ -20,7 +20,7 @@
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'> -->
     <link rel="stylesheet" href="category-style.css">
     <script type="text/javascript" src="js/paginationJs.js"></script>
-
+<script type="text/javascript" src="js/loadPage.js"></script>
 
 
 <!-- SiderBar CSS -->
@@ -33,7 +33,7 @@
 
 </style>
 
-<body>
+<body onload="myContent();">
 
 <div class="social-menu-section">
      <a href="#" class="fa fa-facebook"></a>
@@ -78,7 +78,7 @@ var sticky = navbar.offsetTop;
 
 function myFunction1() {
   
-  if (window.pageYOffset >= sticky) {
+  if (window.pageYOffset > sticky) {
     navbar.classList.add("sticky")
   } else {
     navbar.classList.remove("sticky");
