@@ -1,7 +1,21 @@
 <div class="container" >
 <center>
+
 <div class="loader-container" id="loader">
-  <div class="loader-10"></div>
+  <div class="loader-6">
+    <div class="loader-6-circle"></div>
+    <div class="loader-6-circle"></div>
+    <div class="loader-6-circle"></div>
+    <div class="loader-6-circle"></div>
+    <div class="loader-6-circle"></div>
+    <div class="loader-6-circle"></div>
+    <div class="loader-6-circle"></div>
+    <div class="loader-6-circle"></div>
+    <div class="loader-6-circle"></div>
+    <div class="loader-6-circle"></div>
+    <div class="loader-6-circle"></div>
+    <div class="loader-6-circle"></div>
+  </div>
 </div>
 
 </center>
@@ -366,7 +380,17 @@ Cloud
 <!-- Blog Wise Card -->
 <!-- Blog Wise Card -->
   <div class="container">
-  <center><h1 class="rel_post_title" style="margin-top:50px;margin-bottom:50px;">Related Post Information</h1></center>
+  <div class="container_title">
+    <div class="decorative-title">
+      <div class="decorative-bar left vertical thick"></div>
+      <div class="decorative-bar left horizontal thick"></div>
+      <div class="decorative-bar left horizontal thin"></div>
+      <span>RELATED POST</span>
+      <div class="decorative-bar right vertical thick"></div>
+      <div class="decorative-bar right horizontal thick"></div>
+      <div class="decorative-bar right horizontal thin"></div>
+    </div>
+  </div>
   <div class="row rel_post_blog"  >
   <?php 
   $sql1="select  * from tbldata where type='Beginners' ORDER BY storeDate desc LIMIT 3";

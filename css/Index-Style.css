@@ -290,7 +290,7 @@ ul.list-inline.text-center {
 
 .card1 {
   box-shadow: 0 4px 8px 0 rgb(119, 134, 145);
-  max-width: 300px;
+  max-width: 345px;
   margin: auto;
 
   text-align: center;
@@ -298,7 +298,6 @@ ul.list-inline.text-center {
 }
 .card1Container{
 margin: 20px;
-padding: 21px;
 }
 
 .price {
