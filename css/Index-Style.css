@@ -838,13 +838,13 @@ margin-left: 40px;
   margin-top: 50px;
   margin-left: 50px;
   display: inline-block;
-  background-color: #2892CB;
+  background-color: #0B5790;
   color: white;
   font-family: 'Lusitana', serif;
   font-weight: 700;
   font-size: 30px;
   padding: 10px;
-  text-shadow: 1px 2px #b67930;
+  text-shadow: 1px 2px #2590CA;
 }
 .show {
   position: relative;
@@ -899,8 +899,16 @@ h2.show::after {
   animation: hide 1.7s forwards cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-
-
+.heading_title{
+  padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: none;
+    border-radius: .3rem;
+}
+.title_text{
+text-align: center;
+    color: #0B568E;
+}
 
 
 /*=======*/
@@ -942,3 +950,6 @@ html, body
  
 
 }
+
+
+

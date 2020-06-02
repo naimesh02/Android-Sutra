@@ -43,14 +43,17 @@
 
 <!-- Blog -->
 <div class="container">
-    <div class="container_title">
+   <!--  <div class="container_title">
         <div class="decorative-title">
             <center>
            <h2 class="head-title">ANDROID WORKING WITH VIEWPAGER2, TABLAYOUT AND PAGE TRANSFORMERS</h2>
            </center>
            </div>
-    </div>
-	
+    </div> -->
+	<div class="jumbotron heading_title">
+    <h1 class="title_text" >ANDROID WORKING WITH VIEWPAGER2, TABLAYOUT AND PAGE TRANSFORMERS</h1>
+   
+  </div>
 	
 	<div class="row blog_row">
     	<div class="beginner-blog">
@@ -73,17 +76,9 @@
 
 <!-- Category -->
 <div class="container" style="margin-top:50px;">
-	<div class="container_title">
-		<div class="decorative-title">
-			<div class="decorative-bar left vertical thick"></div>
-			<div class="decorative-bar left horizontal thick"></div>
-			<div class="decorative-bar left horizontal thin"></div>
-			<span>CATEGORY</span>
-			<div class="decorative-bar right vertical thick"></div>
-			<div class="decorative-bar right horizontal thick"></div>
-			<div class="decorative-bar right horizontal thin"></div>
-		</div>
-	</div>
+	 <div class="jumbotron heading_title">
+ <h1 class="title_text" >TUTORIAL'S CATEGORY</h1>
+</div>
   <svg id="circle-nav-services" class="circle_category" width="100%" height="100%" viewBox="0 0 650 550">
     <defs>
     <filter id="service-shadow" height="2" width="2" y="-.5" x="-.5">
@@ -100,7 +95,7 @@
         </style>
       </defs>
       <title>Artboard 1</title>
-      <text class="cls-1" transform="translate(99 1865)">UI & UX
+      <text class="cls-5" transform="translate(99 1865)">UI & UX
         <!--<tspan class="cls-2" x="18" y="0">r</tspan>
         <tspan x="28" y="0">ocess</tspan>
         <tspan class="cls-3" x="-22" y="28">A</tspan>
@@ -347,17 +342,9 @@ Cloud
 
 <!-- Android Description -->
 <div class="container">
-	<div class="container_title">
-		<div class="decorative-title">
-			<div class="decorative-bar left vertical thick"></div>
-			<div class="decorative-bar left horizontal thick"></div>
-			<div class="decorative-bar left horizontal thin"></div>
-			<span>INTRODUCTION TO ANDROID</span>
-			<div class="decorative-bar right vertical thick"></div>
-			<div class="decorative-bar right horizontal thick"></div>
-			<div class="decorative-bar right horizontal thin"></div>
-		</div>
-	</div>
+	 <div class="jumbotron heading_title">
+ <h1 class="title_text" >INTRODUCTION TO ANDROID</h1>
+</div>
   <div class="row intro_content" style="margin-top:50px;">      
    <p class="Intro"><b>Android</b> is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance, with the main contributor and commercial marketer being Google.</p>
 
@@ -378,17 +365,9 @@ Cloud
 <!-- Blog Wise Card -->
 <!-- Blog Wise Card -->
   <div class="container">
-  <div class="container_title">
-    <div class="decorative-title">
-      <div class="decorative-bar left vertical thick"></div>
-      <div class="decorative-bar left horizontal thick"></div>
-      <div class="decorative-bar left horizontal thin"></div>
-      <span>RELATED POST</span>
-      <div class="decorative-bar right vertical thick"></div>
-      <div class="decorative-bar right horizontal thick"></div>
-      <div class="decorative-bar right horizontal thin"></div>
-    </div>
-  </div>
+  <div class="jumbotron heading_title">
+ <h1 class="title_text" >RELATED POST</h1>
+</div>
   <div class="row rel_post_blog"  >
   <?php 
   $sql1="select  * from tbldata where type='Beginners' ORDER BY storeDate desc LIMIT 3";
@@ -402,7 +381,7 @@ Cloud
         <img class="card-img-top blog-image" src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
-          <p class="card-text post_desc"><?php echo $row['description'];?><a href=''>Read More</a></p>
+          <p class="card-text post_desc"><?php echo $row['description'];?></p><a href=''>Read More</a>
          
         </div>
       </div>

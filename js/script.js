@@ -16,7 +16,7 @@ const services_data = [
 { name: "Material\nDesign", icon: "management" },
 { name: "Firebase\nFirestore", icon: "manufacturing" },
 { name: "Clund\nConnectivity", icon: "technical" },
-{ name: "UI &\nUX", icon: "process" }];
+{ name: "UI & UX", icon: "process" }];
 
 
 const services = document.getElementById("service-collection");
