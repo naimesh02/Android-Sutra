@@ -25,6 +25,8 @@ const symbol_copy = document.getElementById("circle-nav-copy");
 const use_copy = document.querySelector("use.nav-copy");
 
 //Keeps code DRY avoiding namespace for element creation
+
+
 function createSVGElement(el) {
   return document.createElementNS("http://www.w3.org/2000/svg", el);
 }

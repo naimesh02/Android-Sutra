@@ -22,12 +22,23 @@
 </div>
 <div id="content" style="display:none;">
 <?php include 'header.php';?>
+
 <?php include 'conn.php';?>
 
 </div>
 <!-- Advertisment -->
 <div id="content1" style="display:none;">
-<div class="advertisment">
+  <div class="header-index">
+  <div class="header-info">
+  <h4><a href="#category">ANDROID SUTRA</a></h4>
+    <h1>ANDROID DEVELOPER </h1>
+    <div class="header-meta">
+      <a  href="https://twitter.com/nodws" target="_b" class="author"></a><br>
+      <!-- By <a href="https://twitter.com/nodws" target="_b">Abhishek Bardolia</a> -->
+    </div>
+  </div>
+</div>
+<div class="advertisment animatable bounceIn">
 	<div class="main-box">
 		<div class="inner-box">
 			<h2 class="adv_title">Share Buttons for Your Website</h2>
@@ -75,7 +86,7 @@
 
 
 <!-- Category -->
-<div class="container" style="margin-top:50px;">
+<div class="container animatable bounceIn" style="margin-top:50px;">
 	 <div class="jumbotron heading_title">
  <h1 class="title_text" >TUTORIAL'S CATEGORY</h1>
 </div>
@@ -341,7 +352,7 @@ Cloud
 
 
 <!-- Android Description -->
-<div class="container">
+<div class="container animatable bounceIn">
 	 <div class="jumbotron heading_title">
  <h1 class="title_text" >INTRODUCTION TO ANDROID</h1>
 </div>
@@ -381,8 +392,11 @@ Cloud
         <img class="card-img-top blog-image" src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
-          <p class="card-text post_desc"><?php echo $row['description'];?></p><a href=''>Read More</a>
-         
+          <!-- <p class="card-text post_desc">
+            <?php  if(preg_match('/<img.*>/', $row['description'])) { echo preg_match('/<img.*>/', $row['description']);} ?><a href=''>Read More</a></p>
+           -->
+            <p class="card-text post_desc"><?php echo substr(strip_tags($row['description']),0,90) . "..."; ?><a href='view.php?title=<?php echo $row['title']; ?>'>Read More</a></p>
+          
         </div>
       </div>
     </div>
@@ -407,8 +421,8 @@ Cloud
         <img class="card-img-top blog-image" src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
-          <p class="card-text post_desc"><?php echo $row['description'];?><a href=''>Read More</a></p>
-         
+          <p class="card-text post_desc"><?php echo substr(strip_tags($row['description']),0,90) . "..."; ?><a href='view.php?title=<?php echo $row['title']; ?>'>Read More</a></p>
+           
         </div>
       </div>
     </div>
@@ -429,10 +443,11 @@ Cloud
   ?>
    <div class="col-xs-3 card1Container">
       <div class="card1">
-        <img class="card-img-top blog-image" src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
+        <img class="card-img-top blog-image " src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
-          <p class="card-text post_desc"><?php echo $row['description'];?><a href=''>Read More</a></p>
+         <p class="card-text post_desc"><?php echo substr(strip_tags($row['description']),0,90) . "..."; ?><a href='view.php?title=<?php echo $row['title']; ?>'>Read More</a></p>
+          
          
         </div>
       </div>

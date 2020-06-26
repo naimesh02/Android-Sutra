@@ -51,7 +51,7 @@ color:white;
 }
 
 .logo {
-	margin: 0px 90px;
+	margin: 0px 19px;
 	font-size: 1.45em;
 }
 
@@ -60,7 +60,12 @@ color:white;
 	margin-top: 5px;
 }
 
-.logo a,.main-nav a {
+.logo a{
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.main-nav a {
 	padding: 10px 15px;
 	text-transform: uppercase;
 	text-align: center;
@@ -296,7 +301,7 @@ ul.list-inline.text-center {
   box-shadow:0px 4px 4px 4px rgb(119, 134, 145);
   max-width: 345px;
   margin: auto;
-
+opacity: 0;
   text-align: center;
   font-family: arial;
 }
@@ -663,7 +668,7 @@ margin-left: 40px;
 
 /*To create responsive menu add new css in header*/
  .topnav {
-  overflow: hidden;
+  /*overflow: hidden;*/
 
 }
 
@@ -709,8 +714,8 @@ margin-left: 40px;
   }
   .topnav.responsive .icon {
     position: absolute;
-    right: 63px;
-    top: -21px !important ;
+    right: 55px;
+    top: -79px !important ;
   }
   .topnav.responsive a {
     float: none;
@@ -920,11 +925,11 @@ html, body
 @media (min-width: 320px) and (max-width: 480px) {
 
   body { padding-left: 0px !important; padding-right:0px !important;width: 100% !important; }
-  .logo { padding-left: 20px !important; margin:15px !important;  }
+  .logo {  margin:15px -5px !important;  }
   .header{width: 100% !important;}
   .sticky{width: 400px !important; }
-  .h-logo { width:60% !important; }
-  .main-nav { margin-top: -57px !important; }
+  .h-logo { width:75% !important; }
+  .main-nav { margin-top: -73px !important; }
   .advertisment { width: 100% !important; }
   .main-box { width: 100% !important; }
   .inner-box { width: 100% !important; }
@@ -943,6 +948,9 @@ html, body
   .intro_video { width: 100% !important; height: 200 !important; }
   .rel_post_title{ font-size: 24px !important; }
   .rel_post_blog{ width: 100% !important; }
+  .home_header_info{height: 8% !important,width:0% !important;}
+
+  .header_info1,.header_info2{height: fit-content !important;}
 
 }
 
@@ -952,4 +960,259 @@ html, body
 }
 
 
+
+/*animate div css*/
+
+.animatable {
+  
+  /* initially hide animatable objects */
+  visibility: hidden;
+  
+  /* initially pause animatable objects their animations */
+  -webkit-animation-play-state: paused;   
+  -moz-animation-play-state: paused;     
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;   
+  animation-play-state: paused; 
+}
+
+/* show objects being animated */
+.animated {
+  visibility: visible;
+  
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
+  -o-animation-play-state: running;
+  animation-play-state: running;
+}
+@-moz-keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -moz-transform: scale(.3);
+  }
+
+  50% {
+    -moz-transform: scale(1.05);
+  }
+
+  70% {
+    -moz-transform: scale(.9);
+  }
+
+  100% {
+    opacity: 1;
+    -moz-transform: scale(1);
+  }
+}
+
+@-o-keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -o-transform: scale(.3);
+  }
+
+  50% {
+    -o-transform: scale(1.05);
+  }
+
+  70% {
+    -o-transform: scale(.9);
+  }
+
+  100% {
+    opacity: 1;
+    -o-transform: scale(1);
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(.3);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  70% {
+    transform: scale(.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.animated.animationDelay{
+  animation-delay:.4s;
+  -webkit-animation-delay:.4s;
+}
+.animated.animationDelayMed{
+  animation-delay:1.2s;
+  -webkit-animation-delay:1.2s;
+}
+.animated.animationDelayLong{
+  animation-delay:1.6s;
+  -webkit-animation-delay:1.6s;
+}
+
+.animated.bounceIn {
+  -webkit-animation-name: bounceIn;
+  -moz-animation-name: bounceIn;
+  -o-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+
+
+/*Div fade */
+.rel_post_blog{
+
+}
+
+/*RxJava Menu Item Css*/
+ .home_header_info{
+   width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .header_info1, .header_info2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header_info1{background: white;} 
+  .header_info2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: -100%;
+    background: #0B5790;
+    color:white !important;
+    animation: animation-info 4s infinite;
+  }
+  
+  @keyframes animation-info{
+    10% {left: -100%;}
+    50% {left: 0;}
+    90% {left: -100%;}
+  }
+  
+
+  /*w3-containers padding*/
+  .w3-containerdata{
+    padding:1.01em 16px !important;
+  }
+
+/*Index main Header*/
+.header-index{
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  height:50vw;
+  min-height:400px;
+  max-height:600px;
+  min-width:300px;
+  color:#eee;
+}
+.header-index:after{
+  content:"";
+  width:100%;
+  height:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  z-index:-1;
+ background: linear-gradient(to bottom, rgba(0,0,0,0.12) 40%,rgba(27,32,48,1) 100%);
+}
+.header-index:before{
+  content:"";
+  width:100%;
+  height:200%;
+  position:absolute;
+  top:0;
+  left:0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0); backface-visibility: hidden;
+  scale(1.0, 1.0);
+    transform: translateZ(0);
+  background:#1B2030 url(https://i.pinimg.com/originals/df/f3/13/dff3134d5ee3b8bade3386cab2987666.jpg) 50% 0 no-repeat;
+  /*background:#1B2030 url(https://richestsoft.com/blog/wp-content/uploads/2019/02/Android-app-development.jpg) 50% 0 no-repeat;*/
+  background-size:100%;
+  background-attachment:fixed;
+  animation: grow 360s  linear 10ms infinite;
+  transition:all 0.4s ease-in-out;
+  z-index:-2
+}
+
+
+/*category page sticky right advertise */
+.sticky_ad {
+   position: fixed;
+  
+    height: 30%;
+    z-index: -1
+}
+
+
+/*side list titles with buttels*/
+.li {
+  color:black;
+  list-style:none;
+  position: relative;
+  padding-left:50px;
+  line-height: 3;
+  font-size:1.3em;
+  border-bottom: solid #8EBEFF 1.5px
+
+}
+
+.li:before {
+  font-family:FontAwesome;
+  position: absolute;
+  left: 0;
+  color:#318ca0;
+  font-size:1em;
+}
+li.list:before {
+   content:"\f00c";
+}
+.li a {
+  text-decoration: none !important;
+  color: black;
+}
+.li a:hover{
+  opacity: 0.5;
+}
+.li:hover:before {
+  color:#0B5790;
+  text-decoration: none;
+}
+.sideListHead{
+  margin-left: 30px;
+    text-align: -webkit-center;
+    font-size: 2em;
+    border-bottom: double #0B568E 7px;
+    padding-bottom: 12px;
+}
 

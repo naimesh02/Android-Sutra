@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="category-style.css">
 <script type="text/javascript" src="js/paginationJs.js"></script>
 <script type="text/javascript" src="js/loadPage.js"></script>
-
+<script type="text/javascript" src="js/stickyHeader.js"></script>
 <!-- SiderBar CSS -->
 <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
@@ -35,15 +35,19 @@
   
 <header class="header">
 
-<a href="index.php" class="header-logo">
+
     <h1 class="logo">
-      <img src="Images/Header-Logo.png" class="h-logo"></img>
-    </h1></a>
+      <a href="index.php">
+      <img src="Images/Header-Logo.png" class="h-logo"></img></a>
+    </h1>
       <ul class="main-nav topnav" id="myTopnav">
-          <li><a href="#" class="font-color">RXJAVA</a></li>
+          <li><div class="home_header_info"><a href="#" class="font-color header_info1">RXJAVA</a>
+            <a href="#" class="font-color header_info2">RXJAVA</a></div></li>
+           
+          <li><a href="Data.php?type=Beginners" class="font-color">BEGINNER</a></li>
+          <li><a href="Data.php?type=Mediators" class="font-color">MEDIATOR</a></li>
+          <li><a href="Data.php?type=Advanced" class="font-color">ADVANCED</a></li>
           <li><a href="#" class="font-color">BLOGS</a></li>
-          <li><a href="#" class="font-color">STORE</a></li>
-          <li><a href="#" class="font-color">MAGAZINE</a></li>
           <li><a href="#" class="font-color">TIPS</a></li>
           <li><a href="#" class="font-color">GITHUB</a></li>
           <li></li>
@@ -54,6 +58,8 @@
   </header> 
 
   </div>
+  
+  
 </div>
 </div>
 

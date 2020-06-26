@@ -1,18 +1,12 @@
 <?php include 'header.php';?>
 <?php include 'conn.php';?>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<div class="w3-container">
-	 <div class="container_title">
-    <div class="decorative-title">
-      <div class="decorative-bar left vertical thick"></div>
-      <div class="decorative-bar left horizontal thick"></div>
-      <div class="decorative-bar left horizontal thin"></div>
-      <span>DATA OF CATEGORY <?php echo strtoupper($_GET['category']);?></span>
-      <div class="decorative-bar right vertical thick"></div>
-      <div class="decorative-bar right horizontal thick"></div>
-      <div class="decorative-bar right horizontal thin"></div>
-    </div>
+<div class="w3-container w3-containerdata">
+	 <div class="jumbotron heading_title">
+    <h1 class="title_text" >DATA OF CATEGORY <?php echo strtoupper($_GET['category']);?>
+  </h1>
   </div>
+
 <?php 
 $results_per_page=2;
 	$qry="SELECT * FROM `tblcategorydata` where category_name='".$_GET['category']."'";
@@ -33,7 +27,9 @@ $this_page_start=($page-1)*$results_per_page;
 
 $qry="SELECT * FROM `tblcategorydata` where category_name='".$_GET['category']."' LIMIT ".$this_page_start.','.$results_per_page;
 $cat=mysqli_query($conn,$qry);
-
+?>
+<div style="width:85%;float: left;">
+<?php
 	while($row=mysqli_fetch_array($cat))
 {
 ?>
@@ -60,8 +56,13 @@ $cat=mysqli_query($conn,$qry);
 }
 ?>
 </div>
+<div style="width: 100%" >
+  <img src="https://thebhakti.com/wp-content/uploads/2019/01/mahakal.jpg"  class="sticky_ad" >
 </div>
 </div>
+</div>
+</div>
+
  <div class="pagination-section">
       <ul class="pagination firstPage">
         <li><a href="#">Prev</a></li>

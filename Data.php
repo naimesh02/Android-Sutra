@@ -1,18 +1,12 @@
 <?php include 'header.php';?>
 <?php include 'conn.php';?>
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<div class="w3-container">
-   <div class="container_title">
-    <div class="decorative-title">
-      <div class="decorative-bar left vertical thick"></div>
-      <div class="decorative-bar left horizontal thick"></div>
-      <div class="decorative-bar left horizontal thin"></div>
-      <span>DATA FOR <?php echo strtoupper($_GET['type']);?></span>
-      <div class="decorative-bar right vertical thick"></div>
-      <div class="decorative-bar right horizontal thick"></div>
-      <div class="decorative-bar right horizontal thin"></div>
-    </div>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+
+<div class="w3-container w3-containerdata">
+   <div class="jumbotron heading_title">
+    <h1 class="title_text" >DATA OF  <?php echo strtoupper($_GET['type']);?>
+  </h1>
   </div>
 <?php 
 $results_per_page=2;
@@ -35,7 +29,9 @@ $this_page_start=($page-1)*$results_per_page;
 
 $qry="SELECT * FROM `tbldata` where type='".$_GET['type']."' LIMIT ".$this_page_start.','.$results_per_page;
 $cat=mysqli_query($conn,$qry);
-
+?>
+<div style="width:85%;float: left;">
+<?php
 while($row=mysqli_fetch_array($cat))
 {
 ?>
@@ -51,8 +47,9 @@ while($row=mysqli_fetch_array($cat))
   
      <div class="w3-third w3-center" id="w3-card-content">
 
-        <a href="view-category.php"><p class="category-title"><?php echo $row['title']; ?></p></a>
-          <p class="category-desc"><?php echo $row['description']; ?></p>
+        <a href="view.php?title=<?php  echo $row['title'] ;?>"><p class="category-title"><?php echo $row['title']; ?></p></a>
+   <p class="card-text"><?php echo substr(strip_tags($row['description']),0,300) . "..."; ?></p>
+          
       </p>
       </div>
     </div>
@@ -61,6 +58,10 @@ while($row=mysqli_fetch_array($cat))
 <?php 
 }
 ?>
+</div>
+<div style="width: 100%" >
+  <img src="https://thebhakti.com/wp-content/uploads/2019/01/mahakal.jpg"  class="sticky_ad" >
+</div>
 
 </div>
 </div>
