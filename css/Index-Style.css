@@ -928,7 +928,7 @@ html, body
   .logo {  margin:15px -5px !important;  }
   .header{width: 100% !important;}
   .sticky{width: 400px !important; }
-  .h-logo { width:75% !important; }
+  .h-logo { width:70% !important; }
   .main-nav { margin-top: -73px !important; }
   .advertisment { width: 100% !important; }
   .main-box { width: 100% !important; }
@@ -949,14 +949,31 @@ html, body
   .rel_post_title{ font-size: 24px !important; }
   .rel_post_blog{ width: 100% !important; }
   .home_header_info{height: 8% !important,width:0% !important;}
-
   .header_info1,.header_info2{height: fit-content !important;}
-
+  .container-footer { padding-left: 0px !important; }
+  .container-footer .footer-logo{ padding: 10px !important;width: 100% !important; }
+  .container-footer .list-inline { margin-left: 0px !important; }
+  .jumbotron .title_text{ font-size: 31px !important; }
+  .container .jumbotron .title_text{ font-size: 21px !important; }
 }
 
 @media (min-width: 481px) and (max-width: 767px) { 
- 
-
+ body { padding-left: 0px !important;padding-right: 0px !important; }
+ .topnav a.icon { margin-top: -50px !important; }
+ .header .logo .h-logo{ width: 60%!important; padding: 10px !important; }
+ .advertisment .main-box{ width: 100% !important;padding: 10px !important; }
+ .advertisment .inner-box{ width: 100% !important; }
+ .social-menu-section { text-align: center !important; }
+ .advertisment { padding: 10px !important; }
+ .andriod_sutra .adv_box { padding: 10px !important; }
+ .jumbotron .title_text { font-size:21px !important; }
+ .andriod_sutra .beginner-blog,.mediator-blog,.advance-blog{ margin-bottom: 40px !important; }
+ .andriod_sutra .Intro{ padding: 15px !important; }
+ .andriod_sutra .intro_video { height: 326px !important; width: 462px !important;padding: 20px !important; }
+ .andriod_sutra .rel_post_blog{ display: block !important;margin-left: auto !important;margin-right: auto !important; }
+ .footer .container-footer { padding-left:0px !important; }
+ .footer .footer-logo { padding: 15px !important;width: 90% !important; }
+ .container-footer .list-inline { padding-left: 40px !important; }
 }
 
 

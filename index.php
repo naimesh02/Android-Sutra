@@ -30,7 +30,7 @@
 <div id="content1" style="display:none;">
   <div class="header-index">
   <div class="header-info">
-  <h4><a href="#category">ANDROID SUTRA</a></h4>
+ <!--  <h4><a href="#category">ANDROID SUTRA</a></h4> -->
     <h1>ANDROID DEVELOPER </h1>
     <div class="header-meta">
       <a  href="https://twitter.com/nodws" target="_b" class="author"></a><br>
@@ -53,7 +53,7 @@
 
 
 <!-- Blog -->
-<div class="container">
+<div class="container adv_box">
    <!--  <div class="container_title">
         <div class="decorative-title">
             <center>
