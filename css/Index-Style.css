@@ -966,6 +966,8 @@ html, body
  .social-menu-section { text-align: center !important; }
  .advertisment { padding: 10px !important; }
  .andriod_sutra .adv_box { padding: 10px !important; }
+ .home_header_info{height: 8% !important,width:0% !important;}
+  .header_info1,.header_info2{height: fit-content !important;}
  .jumbotron .title_text { font-size:21px !important; }
  .andriod_sutra .beginner-blog,.mediator-blog,.advance-blog{ margin-bottom: 40px !important; }
  .andriod_sutra .Intro{ padding: 15px !important; }
