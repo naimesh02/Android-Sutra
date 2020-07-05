@@ -10,12 +10,10 @@ while ($row=mysqli_fetch_array($qrys)) {
 }
 
 ?>
-
-
-  <div class="row" style="padding: 100px;padding-top: 10px">
+  <div class="row viewData" style="padding: 100px;padding-top: 10px">
   	<div class="col-sm-8">
       
-  		<img src="../../AdminAndroid/Admin/upload/<?php echo $img; ?>" class="center" alt="
+  		<img src="<?php echo $img; ?>" class="center" alt="
       Denim Jeans">
   	</div>
     <div class="col-sm-4">
@@ -27,12 +25,12 @@ while ($row=mysqli_fetch_array($qrys)) {
   </h1>
   </div>
   </div>
-<div>
-  <div style="width: 70%;float:left;">
+<div class="row dataDesc">
+  <div class="col-sm-8">
  <!--  <p class="cat_title_1"><strong>What is Lorem Ipsum?</strong></p> -->
   <p class="cat_content_1"><?php echo $description;?> </p>
 </div>
-<div style="width: 30%;float:left;">
+<div class="col-sm-4 topicsView">
   <p class="sideListHead">Topics</p>
   <ul>
  

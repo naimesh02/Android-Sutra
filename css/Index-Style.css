@@ -126,7 +126,7 @@ color:rgb(37, 144, 202) !important;
 /* ================================= 
   Media Queries
 ==================================== */
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 	.header,
 	.main-nav {
 		display: flex;
@@ -955,6 +955,11 @@ html, body
   .container-footer .list-inline { margin-left: 0px !important; }
   .jumbotron .title_text{ font-size: 31px !important; }
   .container .jumbotron .title_text{ font-size: 21px !important; }
+  .viewData{padding: 0px !important;}
+  .center{height:200px !important;}
+  .dataDesc{padding-right: 2rem !important;}
+  .topicsView{padding-left: 0rem !important;}
+  .sideListHead{margin-right: 20px !important;margin-top: 30px !important}
 }
 
 @media (min-width: 481px) and (max-width: 767px) { 
@@ -978,7 +983,25 @@ html, body
  .container-footer .list-inline { padding-left: 40px !important; }
 }
 
+@media(min-width: 768px) and (max-width: 1200px){
+  body { padding-left: 0px !important;padding-right: 0px !important; }
+ .topnav a.icon { margin-top: 0px !important; }
+ .advertisment .main-box{ width: 100% !important;padding: 10px !important; }
+ .advertisment .inner-box{ width: 100% !important; }
+ .andriod_sutra .beginner-blog,.mediator-blog,.advance-blog{ width: 230px !important; height: 300px !important; }
+ .android-icon{text-align: center !important;padding : 28px !important;}
+ .android-content{margin: 13px -35px;}
+ .social-menu-section { text-align: right !important;padding: 0px 0px; }
+ .advertisment { padding: 10px !important; }
+ .card1{width:200px; height:300px; }
+ .blog-image{height:45% !important;}
+ .home_header_info{height: fit-content !important,width:0% !important;}
+ .andriod_sutra .Intro-img{ width: 352px !important; height: 335px !important }
+ .andriod_sutra .intro_video { width: 350px !important; }
+ 
+  .header_info1,.header_info2{height: fit-content !important;}
 
+}
 
 /*animate div css*/
 

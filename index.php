@@ -389,7 +389,7 @@ Cloud
   ?>
   <div class="col-xs-3 card1Container">
       <div class="card1">
-        <img class="card-img-top blog-image" src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
+        <img class="card-img-top blog-image" src="<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
           <!-- <p class="card-text post_desc">
@@ -418,7 +418,7 @@ Cloud
   ?>
      <div class="col-xs-3 card1Container"> 
       <div class="card1">
-        <img class="card-img-top blog-image" src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
+        <img class="card-img-top blog-image" src="<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
           <p class="card-text post_desc"><?php echo substr(strip_tags($row['description']),0,90) . "..."; ?><a href='view.php?title=<?php echo $row['title']; ?>'>Read More</a></p>
@@ -443,7 +443,7 @@ Cloud
   ?>
    <div class="col-xs-3 card1Container">
       <div class="card1">
-        <img class="card-img-top blog-image " src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
+        <img class="card-img-top blog-image " src="<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
          <p class="card-text post_desc"><?php echo substr(strip_tags($row['description']),0,90) . "..."; ?><a href='view.php?title=<?php echo $row['title']; ?>'>Read More</a></p>

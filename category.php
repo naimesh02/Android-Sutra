@@ -37,7 +37,7 @@ $cat=mysqli_query($conn,$qry);
 	<div class="w3-row">
 		 <div class="w3-third w3-center">
 		 	<div class="w3-panel w3-card w3-card-view">
-			<img src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image']; ?>" class="category-img" alt="
+			<img src="<?php echo $row['image']; ?>" class="category-img" alt="
 			Denim Jeans">
 		</div>
 		</div>
@@ -45,8 +45,8 @@ $cat=mysqli_query($conn,$qry);
 	
 		 <div class="w3-third w3-center" id="w3-card-content">
 
-    		<a href="view-category.php"><p class="category-title"><?php echo $row['title']; ?></p></a>
-        	<p class="category-desc"><?php echo $row['description']; ?></p>
+    		<a href="view-category.php?title=<?php  echo $row['title'] ;?>&category=<?php echo $_GET['category'] ?>"><p class="category-title"><?php echo $row['title']; ?></p></a>
+       <p class="card-text"><?php echo substr(strip_tags($row['description']),0,300) . "..."; ?></p>
     	</p>
     	</div>
     </div>
