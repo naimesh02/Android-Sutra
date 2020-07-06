@@ -363,7 +363,7 @@ Cloud
 
 
     <div class="col-xs-6">
-      <img src="https://nareshit.com/wp-content/uploads/2018/09/android-online-training-nareshit-463x250.jpg" class="Intro-img" width="570" height="335" alt="Denim Jeans">
+      <img src="Images/intro-img.jpg" class="Intro-img" width="570" height="335" alt="Denim Jeans">
     </div>
  
     <div class="col-xs-6">
