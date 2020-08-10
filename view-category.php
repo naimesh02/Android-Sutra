@@ -6,6 +6,7 @@ $qrys=mysqli_query($conn,$sql);
 while ($row=mysqli_fetch_array($qrys)) {
   $img=$row['image'];
   $description=$row['description'];
+     $gitLink=$row['gitLink'];
   # code...
 }
 
@@ -48,7 +49,21 @@ while($res=mysqli_fetch_array($response)){
 </ul>
   </div>
 </div>
+ <div style="margin-left: 150px">
+  <?php
+if($gitLink !==null || $gitLink!='')
+{
+
+  ?>
+  
+  <a href="<?php echo $gitLink ?>"><button class="btn-download btn-medium info" >Download </button></a>
+   <a href="<?php echo $gitLink ?>">
+    <button class="btn-download btn-medium info" >Git Repository </button></a>
  
+  <?php
+ }
+?>
+ </div>
 </div>
 
 
