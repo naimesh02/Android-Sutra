@@ -6,6 +6,7 @@ $qrys=mysqli_query($conn,$sql);
 while ($row=mysqli_fetch_array($qrys)) {
   $img=$row['image'];
   $description=$row['description'];
+   $gitLink=$res['gitLink'];
   # code...
 }
 
@@ -13,7 +14,7 @@ while ($row=mysqli_fetch_array($qrys)) {
   <div class="row viewData" style="padding: 100px;padding-top: 10px">
   	<div class="col-sm-8">
       
-  		<img src="<?php echo $img; ?>" class="center" alt="
+  		<img src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $img; ?>" class="center" alt="
       Denim Jeans">
   	</div>
     <div class="col-sm-4">
@@ -39,7 +40,8 @@ $titles="SELECT * FROM `tbldata` WHERE title not LIKE '".$_GET['title']."'";
 $response=mysqli_query($conn,$titles);
 
 while($res=mysqli_fetch_array($response)){
-  ?>
+ 
+    ?>
  <li class="li list">
    <a href="view.php?title=<?php echo $res['title']; ?>">  <?php echo $res['title']; ?></a></li>
   <?php
@@ -48,7 +50,23 @@ while($res=mysqli_fetch_array($response)){
 </ul>
   </div>
 </div>
+<center>
+ <div style="margin-left: 150px">
+  <?php
+// if($gitLink !==null || $gitLink!='')
+// {
+
+  ?>
+  
+  <a href="<?php echo $gitLink ?>" style="margin-right: 120px;"><button  style="border-radius: 10px;background-color: #0B5790;width:200px;height:50px;font-size: 20px; color:white">Download </button></a>
+   <a href="<?php echo $gitLink ?>">
+    <button style="border-radius: 10px;border-color:#0B5790 solid;background-color: #0B5790;width:200px;height:50px;font-size: 20px; color:white">Git Repository </button></a>
  
+  <?php
+// }
+?>
+ </div>
+ </center>
 </div>
 
 

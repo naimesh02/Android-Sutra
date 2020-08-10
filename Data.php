@@ -39,7 +39,7 @@ while($row=mysqli_fetch_array($cat))
   <div class="w3-row">
      <div class="w3-third w3-center">
       <div class="w3-panel w3-card w3-card-view">
-      <img src="<?php echo $row['image']; ?>" class="category-img" alt="
+      <img src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image']; ?>" class="category-img" alt="
       Denim Jeans">
     </div>
     </div>

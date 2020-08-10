@@ -362,6 +362,55 @@ Cloud
    <p class="Intro">Initially developed by Android Inc., which Google bought in 2005, Android was unveiled in 2007, with the first commercial Android device launched in September 2008. The current stable version is Android 10, released on September 3, 2019. The core Android source code is known as Android Open Source Project (AOSP), which is primarily licensed under the Apache License. This has allowed variants of Android to be developed on a range of other electronics, such as game consoles, digital cameras, PCs and others, each with a specialized user interface. Some well known derivatives include Android TV for televisions and Wear OS for wearables, both developed by Google.</p>
 
 
+<p class="Intro"><b>Why choose Career Option as an Android Developer
+</b></p>
+<p class="Intro"><ul class="into-data"><li style="list-style: circle;">In increasing globalization, mobile apps play a vital role in everyone’s
+life. Nowadays everything is very handy or just a few clicks away.</li><br/>
+<li style="list-style: circle;">
+In the last decades, the use of Mobile smartphones increases at a huge
+amount.</li><br/>
+<li style="list-style: circle;">In the mobile shares, Android was always dominating the global
+smartphone operating system market for several years.</li><br/>
+<li style="list-style: circle;">It consists of over 75% of total mobile market shares consisting of 2.9
+million apps on play store.</li><br/>
+<li style="list-style: circle;">So Android has been around for a decade and os does seem to reach
+some level of maturity. The job market does not look to be slowing
+down.</li><br/>
+</ul>
+</p>
+<p class="Intro"><b>Is Native Android Development still a good choice?</b></p>
+<p class="Intro"><ul class="into-data"><li style="list-style: circle;">There are still a lot more companies that are looking to build apps and
+tools that work for android.</li><br/>
+<li style="list-style: circle;">Are they looking for cross-platform solutions like Flutter or ReactNative? No, you will find more jobs regarding Android or iOS rather than
+Flutter or React-Native.</li><br/></ul></p>
+
+<p class="Intro"><b>Which skills you should own to become a better Android
+Developer?</b></p>
+<p class="Intro"><ul class="into-data"><li style="list-style: circle;">There are still you should own to become a better Android
+Developer.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</li><br/>
+<li style="list-style: circle;">Java/Kotlin/c++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><br/>
+
+<li style="list-style: circle;"> Android software development kit.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><br/>
+<li style="list-style: circle;">Able to work with API.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><br/>
+<li style="list-style: circle;">Understanding logical reasoning.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><br/>
+<li style="list-style: circle;">Analytical skills and technical.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><br/></ul>
+</p>
+<br/>
+<p class="Intro"></p>
+<p class="Intro"></p>
+<p class="Intro"><b>Which Language should you learn?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                </b></p>
+<p class="Intro">
+<ul class="into-data"><li style="list-style: circle;">Android Developers mostly play with either Kotlin or Java.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><br/>
+<li style="list-style: circle;">Kotlin is sponsored by Google, announced as one of the official languages for Android Development in 2017.</li><br/>
+<li style="list-style: circle;">It will be good to invest your learning time in Kotlin. Because Kotlin will
+be next future for Android Developers.</li><br/></ul></p>
+<p class="Intro"><b>Conclusion</b></p>
+<p class="Intro">To sum it all up, mobile app development is a very fulfilling career. This is
+right time to pursue a career in Android Development. It is not only an easy
+skill to learn, but also highly in demand. With the right Android developer
+training, you will most definitely be on the right career path. So, learn android
+development now to build an exciting career.</p>
     <div class="col-xs-6">
       <img src="Images/intro-img.jpg" class="Intro-img" width="570" height="335" alt="Denim Jeans">
     </div>
@@ -389,7 +438,7 @@ Cloud
   ?>
   <div class="col-xs-3 card1Container">
       <div class="card1">
-        <img class="card-img-top blog-image" src="<?php echo $row['image'];?>" alt="Card image cap">
+        <img class="card-img-top blog-image" src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
           <!-- <p class="card-text post_desc">
@@ -418,7 +467,7 @@ Cloud
   ?>
      <div class="col-xs-3 card1Container"> 
       <div class="card1">
-        <img class="card-img-top blog-image" src="<?php echo $row['image'];?>" alt="Card image cap">
+        <img class="card-img-top blog-image" src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
           <p class="card-text post_desc"><?php echo substr(strip_tags($row['description']),0,90) . "..."; ?><a href='view.php?title=<?php echo $row['title']; ?>'>Read More</a></p>
@@ -443,7 +492,7 @@ Cloud
   ?>
    <div class="col-xs-3 card1Container">
       <div class="card1">
-        <img class="card-img-top blog-image " src="<?php echo $row['image'];?>" alt="Card image cap">
+        <img class="card-img-top blog-image " src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
          <p class="card-text post_desc"><?php echo substr(strip_tags($row['description']),0,90) . "..."; ?><a href='view.php?title=<?php echo $row['title']; ?>'>Read More</a></p>

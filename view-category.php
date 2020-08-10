@@ -13,7 +13,7 @@ while ($row=mysqli_fetch_array($qrys)) {
   <div class="row" style="padding: 100px;padding-top: 10px">
     <div class="col-sm-8">
       
-      <img src="<?php echo $img; ?>" class="center" alt="
+      <img src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $img; ?>" class="center" alt="
       Denim Jeans">
     </div>
     <div class="col-sm-4">

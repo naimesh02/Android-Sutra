@@ -381,6 +381,15 @@ margin: 20px;
   font-size: 20px !important;
   letter-spacing: 1px;
 }
+.into-data  {
+  line-height: 1;
+  text-align: justify;
+  font-size: 20px !important;
+  letter-spacing: 1px;
+}
+.intro-data-li{
+  list-style:circle !important;
+}
 
 .Intro-img{
   border-radius: 30px !important;
@@ -1256,5 +1265,49 @@ li.list:before {
     font-size: 2em;
     border-bottom: double #0B568E 7px;
     padding-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+/*Download now button */
+.cta {
+  background-color:#0B5790; 
+
+  border-image: linear-gradient(45deg, lighten(#0B5790,20%) 0%, lighten(#0B5790,20%) 100%);
+  border-image-slice: 1;
+  color: white;
+  
+  &:before {
+    border-image-slice: 1;
+    
+    left: -0.75em;
+    top: .15em;
+  }
+  
+  &:after {
+    border-image-slice: 1;
+   
+    bottom: -0.75em;
+    right: .15em;
+  }
+  
+  &:hover {
+    background: white;
+    
+    border-image-slice: 1;
+    color: $slate-color;
+    
+    &:before {
+      height: 100%;
+    }
+    &:after {
+      width: 100%;
+    }
+  }
 }
 
