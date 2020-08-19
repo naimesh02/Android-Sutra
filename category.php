@@ -6,7 +6,17 @@
     <h1 class="title_text" >DATA OF CATEGORY <?php echo strtoupper($_GET['category']);?>
   </h1>
   </div>
-
+<div align="center" style="background-color: red;margin: 10px;width: 50%;text-align: center;">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:98px;height:17%"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
 <?php 
 $results_per_page=2;
 	$qry="SELECT * FROM `tblcategorydata` where category_name='".$_GET['category']."'";
@@ -37,7 +47,7 @@ $cat=mysqli_query($conn,$qry);
 	<div class="w3-row">
 		 <div class="w3-third w3-center">
 		 	<div class="w3-panel w3-card w3-card-view">
-			<img src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image']; ?>" class="category-img" alt="
+			<img src="../../AdminAndroid/Admin/upload/<?php echo $row['image']; ?>" class="category-img" alt="
 			Denim Jeans">
 		</div>
 		</div>
@@ -56,9 +66,34 @@ $cat=mysqli_query($conn,$qry);
 }
 ?>
 </div>
-<div style="width: 100%" >
+<!-- <div style="width: 100%" >
   <img src="https://thebhakti.com/wp-content/uploads/2019/01/mahakal.jpg"  class="sticky_ad" >
+</div> -->
+<div style="height: 100%; width: 10%;right:50; position:absolute; ">
+   <div align="center" style="background-color: red;margin: 10px">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:98px;height:50%"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 </div>
+<div align="center" style="background-color: yellow; margin: 10px">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:98px;height:50%"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+  </div>
+
 </div>
 </div>
 </div>

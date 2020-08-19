@@ -30,6 +30,7 @@
 <div id="content1" style="display:none;">
   <div class="header-index">
   <div class="header-info">
+
  <!--  <h4><a href="#category">ANDROID SUTRA</a></h4> -->
     <h1>ANDROID DEVELOPER </h1>
     <div class="header-meta">
@@ -38,29 +39,22 @@
     </div>
   </div>
 </div>
-<div class="advertisment animatable bounceIn">
-	<div class="main-box">
-		<div class="inner-box">
-			<h2 class="adv_title">Share Buttons for Your Website</h2>
-			<span class="adv_subcontent">Our new share biuttons are mobile friendly, fast and drop dead goreous</span>
-				<div>
-					<button type="button" class="btn btn-success btn-size">Open</button>
-				</div>
-		</div>
-	</div>
-</div>
-
 
 
 <!-- Blog -->
+<div align="center" style="background-color: red;margin: 10px">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:728px;height:90px"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
 <div class="container adv_box">
-   <!--  <div class="container_title">
-        <div class="decorative-title">
-            <center>
-           <h2 class="head-title">ANDROID WORKING WITH VIEWPAGER2, TABLAYOUT AND PAGE TRANSFORMERS</h2>
-           </center>
-           </div>
-    </div> -->
+  
 	<div class="jumbotron heading_title">
     <h1 class="title_text" >ANDROID WORKING WITH VIEWPAGER2, TABLAYOUT AND PAGE TRANSFORMERS</h1>
    
@@ -369,6 +363,18 @@ life. Nowadays everything is very handy or just a few clicks away.</li><br/>
 <li style="list-style: circle;">
 In the last decades, the use of Mobile smartphones increases at a huge
 amount.</li><br/>
+<div align="center" style="background-color: red">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:728px;height:90px"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<br/>
 <li style="list-style: circle;">In the mobile shares, Android was always dominating the global
 smartphone operating system market for several years.</li><br/>
 <li style="list-style: circle;">It consists of over 75% of total mobile market shares consisting of 2.9
@@ -405,12 +411,24 @@ Developer.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
 <li style="list-style: circle;">Kotlin is sponsored by Google, announced as one of the official languages for Android Development in 2017.</li><br/>
 <li style="list-style: circle;">It will be good to invest your learning time in Kotlin. Because Kotlin will
 be next future for Android Developers.</li><br/></ul></p>
-<p class="Intro"><b>Conclusion</b></p>
+
+<p class="Intro"><b>Conclusion  </b></p>
 <p class="Intro">To sum it all up, mobile app development is a very fulfilling career. This is
 right time to pursue a career in Android Development. It is not only an easy
 skill to learn, but also highly in demand. With the right Android developer
 training, you will most definitely be on the right career path. So, learn android
-development now to build an exciting career.</p>
+development now to build an exciting career.</p><br/>
+<div align="center" style="background-color: red">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:728px;height:90px"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
     <div class="col-xs-6">
       <img src="Images/intro-img.jpg" class="Intro-img" width="570" height="335" alt="Denim Jeans">
     </div>
@@ -430,7 +448,7 @@ development now to build an exciting career.</p>
 </div>
   <div class="row rel_post_blog"  >
   <?php 
-  $sql1="select  * from tbldata where type='Beginners' ORDER BY storeDate desc LIMIT 3";
+  $sql1="select  * from tbldata where type='Beginners' ORDER BY sequenceNo desc, storeDate desc LIMIT 3";
   $querys=mysqli_query($conn,$sql1);
   while($row=mysqli_fetch_array($querys))
   {
@@ -438,7 +456,7 @@ development now to build an exciting career.</p>
   ?>
   <div class="col-xs-3 card1Container">
       <div class="card1">
-        <img class="card-img-top blog-image" src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
+        <img class="card-img-top blog-image" src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
           <!-- <p class="card-text post_desc">
@@ -454,12 +472,23 @@ development now to build an exciting career.</p>
 }
 ?>
   </div>
+  <div align="center" style="background-color: red">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:728px;height:90px"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
 </div>
 
 <div class="container">
   <div class="row rel_post_blog">
    <?php 
-  $sql1="select  * from tbldata where type='Mediators' ORDER BY storeDate desc LIMIT 3";
+  $sql1="select  * from tbldata where type='Mediators' ORDER BY sequenceNo desc, storeDate desc LIMIT 3";
   $querys=mysqli_query($conn,$sql1);
   while($row=mysqli_fetch_array($querys))
   {
@@ -467,7 +496,7 @@ development now to build an exciting career.</p>
   ?>
      <div class="col-xs-3 card1Container"> 
       <div class="card1">
-        <img class="card-img-top blog-image" src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
+        <img class="card-img-top blog-image" src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
           <p class="card-text post_desc"><?php echo substr(strip_tags($row['description']),0,90) . "..."; ?><a href='view.php?title=<?php echo $row['title']; ?>'>Read More</a></p>
@@ -479,12 +508,23 @@ development now to build an exciting career.</p>
 }
 ?>
   </div>
+  <div align="center" style="background-color: red">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:728px;height:90px"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
 </div>
 
 <div class="container">
   <div class="row rel_post_blog">
    <?php 
-  $sql1="select  * from tbldata where type='Advanced' ORDER BY storeDate desc LIMIT 3";
+  $sql1="select  * from tbldata where type='Advanced' ORDER BY sequenceNo desc, storeDate desc LIMIT 3";
   $querys=mysqli_query($conn,$sql1);
   while($row=mysqli_fetch_array($querys))
   {
@@ -492,7 +532,7 @@ development now to build an exciting career.</p>
   ?>
    <div class="col-xs-3 card1Container">
       <div class="card1">
-        <img class="card-img-top blog-image " src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
+        <img class="card-img-top blog-image " src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
           <h4 class="card-title post_title"><?php echo $row['title'];?></h4>
          <p class="card-text post_desc"><?php echo substr(strip_tags($row['description']),0,90) . "..."; ?><a href='view.php?title=<?php echo $row['title']; ?>'>Read More</a></p>
@@ -505,6 +545,7 @@ development now to build an exciting career.</p>
 }
 ?>
   </div>
+
 </div>
   
 

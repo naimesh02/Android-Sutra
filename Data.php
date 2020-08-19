@@ -27,7 +27,7 @@ else
 $this_page_start=($page-1)*$results_per_page;
 
 
-$qry="SELECT * FROM `tbldata` where type='".$_GET['type']."' LIMIT ".$this_page_start.','.$results_per_page;
+$qry="SELECT * FROM `tbldata` where type='".$_GET['type']."' ORDER BY sequenceNo LIMIT ".$this_page_start.','.$results_per_page;
 $cat=mysqli_query($conn,$qry);
 ?>
 <div style="width:85%;float: left;">
@@ -39,7 +39,7 @@ while($row=mysqli_fetch_array($cat))
   <div class="w3-row">
      <div class="w3-third w3-center">
       <div class="w3-panel w3-card w3-card-view">
-      <img src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $row['image']; ?>" class="category-img" alt="
+      <img src="../../AdminAndroid/Admin/upload/<?php echo $row['image']; ?>" class="category-img" alt="
       Denim Jeans">
     </div>
     </div>
@@ -51,6 +51,7 @@ while($row=mysqli_fetch_array($cat))
    <p class="card-text"><?php echo substr(strip_tags($row['description']),0,300) . "..."; ?></p>
           
       </p>
+
       </div>
     </div>
 </div>  
@@ -59,13 +60,52 @@ while($row=mysqli_fetch_array($cat))
 }
 ?>
 </div>
-<div style="width: 100%" >
+<!-- <div style="width: 100%; background-color: yellow;float: left;" >
   <img src="https://thebhakti.com/wp-content/uploads/2019/01/mahakal.jpg"  class="sticky_ad" >
+</div> -->
+
+
+<div style="height: 100%; width: 10%;right:50; position:absolute; ">
+   <div align="center" style="background-color: red;margin: 10px">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:98px;height:50%"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div align="center" style="background-color: yellow; margin: 10px">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:98px;height:50%"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+  </div>
 </div>
 
 </div>
 </div>
+<div align="center">
+  <div align="center" style="background-color: yellow;width: 600px">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:600px;height:90px"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 </div>
+  </div>
  <div class="pagination-section">
       <ul class="pagination firstPage">
       	<li><a href="#">Prev</a></li>

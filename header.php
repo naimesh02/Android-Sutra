@@ -16,6 +16,7 @@
 <script type="text/javascript" src="js/paginationJs.js"></script>
 <script type="text/javascript" src="js/loadPage.js"></script>
 <script type="text/javascript" src="js/stickyHeader.js"></script>
+<script type="text/javascript" src="http://onecreative.aol.com/ads/jsapi/ADTECH.js"></script>
 <!-- SiderBar CSS -->
 <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>

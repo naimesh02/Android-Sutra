@@ -14,11 +14,32 @@ while ($row=mysqli_fetch_array($qrys)) {
   <div class="row viewData" style="padding: 100px;padding-top: 10px">
   	<div class="col-sm-8">
       
-  		<img src="../../Android Project/AdminAndroid/Admin/upload/<?php echo $img; ?>" class="center" alt="
+  		<img src="../../AdminAndroid/Admin/upload/<?php echo $img; ?>" class="center" alt="
       Denim Jeans">
   	</div>
     <div class="col-sm-4">
-    	<h2>Advertisement</h2>
+    	<div align="center" style="background-color: red;margin: 10px">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:98px;height:37%"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div align="center" style="background-color: red;margin: 10px">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:98px;height:50%"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
     </div>
     <div class="container_title">
 	   <div class="jumbotron heading_title">
@@ -70,5 +91,15 @@ if($gitLink !==null || $gitLink!='')
  </center>
 </div>
 
-
+<div align="center" style="background-color: red;margin: -50px 100px 10px 100px;width: 60%">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Homepage Leaderboard -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:198px;height:20%"
+data-ad-client="ca-pub-1234567890123456"
+data-ad-slot="1234567890"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
 <?php include 'footer.php' ?>
