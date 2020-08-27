@@ -139,7 +139,7 @@ data-ad-slot="1234567890"></ins>
         <tspan class="cls-6" x="99" y="77">r</tspan>
         <tspan x="104" y="77">oject goals.</tspan>
       </text>
-	   <a href="category.php?category=App"><rect data-url="/industry" id="learn-more" x="100" y="2030" width="90" height="30" />
+	   <a href="category.php?category=UiUx"><rect data-url="/industry" id="learn-more" x="100" y="2030" width="90" height="30" />
     <text x="115" y="2050" class="learn-more-text">Learn more</text></a>
       <text class="cls-1" transform="translate(89 1566)">
 Cloud
@@ -161,7 +161,7 @@ Cloud
         <tspan class="cls-14" x="7" y="58">r</tspan>
         <tspan x="13" y="58">form as the intended design.</tspan>
       </text>
-	   <a href="category.php?category=App"><rect data-url="/industry" id="learn-more" x="100" y="1730" width="90" height="30" />
+	   <a href="category.php?category=CloudConnectivity"><rect data-url="/industry" id="learn-more" x="100" y="1730" width="90" height="30" />
     <text x="115" y="1750" class="learn-more-text">Learn more</text></a>
       <text class="cls-1" transform="translate(105 966)">Material
 <!--        <tspan class="cls-2" x="18" y="0">a</tspan>
@@ -185,7 +185,7 @@ Cloud
         <tspan class="cls-7" x="116" y="58">r</tspan>
         <tspan x="121" y="58">ements.</tspan>
       </text>
-	  <a href="category.php?category=App"><rect data-url="/industry" id="learn-more" x="100" y="1130" width="90" height="30" />
+	  <a href="category.php?category=MaterialDesign"><rect data-url="/industry" id="learn-more" x="100" y="1130" width="90" height="30" />
     <text x="115" y="1150" class="learn-more-text">Learn more</text></a>
       <text class="cls-1" transform="translate(75 666)">Database Info</text>
       <text class="cls-5" transform="translate(83 710)">Cost
@@ -208,7 +208,7 @@ Cloud
         <tspan class="cls-8" x="113" y="96">r</tspan>
         <tspan x="118" y="96">ams.</tspan>
       </text> 
-	<a href="category.php?category=App"><rect data-url="/industry" id="learn-more" x="100" y="820" width="90" height="30" />
+	<a href="category.php?category=Database"><rect data-url="/industry" id="learn-more" x="100" y="820" width="90" height="30" />
     <text x="115" y="840" class="learn-more-text">Learn more</text></a>
       
       <text class="cls-1" transform="translate(87 65)">&nbsp;&nbsp;&nbsp;&nbsp;App</text>
@@ -257,7 +257,7 @@ Cloud
         <tspan x="69" y="58">alidation Solutions.</tspan>
       </text>
 	   <use x="85" y="30" width="280" height="280" xlink:href="#circle-nav-copy" class="nav-copy"/>
-	<a href="category.php?category=App"><rect data-url="/industry" id="learn-more" x="100" y="530" width="90" height="30" />
+	<a href="category.php?category=Architecture"><rect data-url="/industry" id="learn-more" x="100" y="530" width="90" height="30" />
     <text x="115" y="550" class="learn-more-text">Learn more</text></a>
       
 	  <text class="cls-1" transform="translate(138 1266)">
@@ -278,7 +278,7 @@ Cloud
         <tspan class="cls-15" x="44" y="96">ev</tspan>
         <tspan x="60" y="96">el applications. </tspan>
       </text>
-	   <a href="category.php?category=App"><rect data-url="/industry" id="learn-more" x="100" y="1430" width="90" height="30" />
+	   <a href="category.php?category=firebase"><rect data-url="/industry" id="learn-more" x="100" y="1430" width="90" height="30" />
     <text x="115" y="1450" class="learn-more-text">Learn more</text></a>
     </symbol>
     <symbol id="industries" viewBox="0 0 512 512">

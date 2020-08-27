@@ -1330,3 +1330,103 @@ li.list:before {
   top: 4px;
   box-shadow: 0px 0px rgba(0, 0, 0, 0.5);
 }
+
+/*Coming Soon css*/
+@keyframes fadeSoon {
+  from {bottom: 100%; opacity: 0;}
+  to {top: 100; opacity: 1;}
+  
+}
+
+@-webkit-keyframes fadeSoon {
+  from {top: 100%; opacity: 0;}
+  to {top: 100; opacity: 1;}
+  
+}
+@keyframes animateSoon{
+  5%{
+    content: 'C'
+  }
+
+  10%{
+    content: 'Co'
+  }
+  20%{
+    content: 'Com'
+  }
+  30%{
+    content: 'Comi'
+  }
+  40%{
+    content: 'Comin'
+  }
+  50%{
+    content: 'Coming'
+  }
+  60%{
+    content: 'Coming S'
+  }
+  70%{
+    content: 'Coming So'
+  }
+  80%{
+    content: 'Coming Soo'
+  }
+  85%{
+    content: 'Coming Soon'
+  }
+  90%{
+    content: 'Coming Soon!'
+  }
+
+  95%{
+    content: 'Coming Soon!.'
+  }
+
+  100%{
+    content: 'Coming Soon!..'
+  }
+}
+
+.commingsoon {
+ /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  animation: fadeSoon 1000ms ease;
+  -webkit-animation: fadeSoon 1000ms ease;
+  */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+   font-family: Roboto, sans-serif;
+  font-size: 9em;
+  font-weight: 700;
+
+  transform: translate(-50%, 100%);
+}
+  
+.h1comming:{
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-shadow: 10px 9px 1px rgba(255,0,0,0.1);
+}
+.h1comming:before {
+ /* font-size: 50px;*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-shadow: 10px 9px 1px rgba(255,0,0,0.1);
+ font-family: Roboto, sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+ /*color:#FFFFFF;*/
+ /*background-image:#08406*/
+   background-image: linear-gradient(to right,#0B5790, #0B5790,#0B5790);
+  content:'';
+  animation: animateSoon infinite 3s;
+}
+
+.endDot {
+  color: #4FEBFE;
+}

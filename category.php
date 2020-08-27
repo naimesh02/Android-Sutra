@@ -19,10 +19,11 @@ data-ad-slot="1234567890"></ins>
 </div>
 <?php 
 $results_per_page=2;
+$num_of_pages=0;
 	$qry="SELECT * FROM `tblcategorydata` where category_name='".$_GET['category']."'";
 	$cat=mysqli_query($conn,$qry);
   $num_of_data=mysqli_num_rows($cat);
-
+if($num_of_data>0){
 $num_of_pages=ceil($num_of_data/$results_per_page);
 
 if(!isset($_GET['page'])){
@@ -93,6 +94,17 @@ data-ad-slot="1234567890"></ins>
 </script>
 </div>
   </div>
+<?php
+}
+else
+{
+  ?>
+  <div class="commingsoon">
+  <h1 class="h1comming"></h1>
+</div>
+  <?php
+}
+?>
 
 </div>
 </div>
@@ -100,13 +112,13 @@ data-ad-slot="1234567890"></ins>
 
  <div class="pagination-section">
       <ul class="pagination firstPage">
-        <li><a href="#">Prev</a></li>
+     <?php if($num_of_pages>0){  ?> <li><a href="#">Prev</a></li><?php } ?>
 <?php
 for($i=1;$i<=$num_of_pages;$i++){
   echo '<li><a href="category.php?category='.$_GET['category'].'&page='.$i.'" class="pages" >'.$i.'</a></li>';
 }
 ?>
- <li><a href="#">Next</a></li>
+  <?php if($num_of_pages>0){  ?> <li><a href="#">Next</a></li><?php } ?>
  </ul>
     </div>
   </div>
