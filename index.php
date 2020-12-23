@@ -454,7 +454,7 @@ data-ad-slot="1234567890"></ins>
   {
   
   ?>
-  <div class="col-xs-3 card1Container">
+  <a href='view.php?title=<?php echo $row['title']; ?>' style="text-decoration: none;color:black"><div class="col-xs-3 card1Container releted_blog">
       <div class="card1">
         <img class="card-img-top blog-image" src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
@@ -467,6 +467,7 @@ data-ad-slot="1234567890"></ins>
         </div>
       </div>
     </div>
+  </a>
   
 <?php
 }
@@ -494,7 +495,7 @@ data-ad-slot="1234567890"></ins>
   {
   
   ?>
-     <div class="col-xs-3 card1Container"> 
+     <a href='view.php?title=<?php echo $row['title']; ?>' style="text-decoration: none;color:black"><div class="col-xs-3 card1Container releted_blog"> 
       <div class="card1">
         <img class="card-img-top blog-image" src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
@@ -504,6 +505,7 @@ data-ad-slot="1234567890"></ins>
         </div>
       </div>
     </div>
+  </a>
 <?php
 }
 ?>
@@ -530,7 +532,7 @@ data-ad-slot="1234567890"></ins>
   {
   
   ?>
-   <div class="col-xs-3 card1Container">
+  <a href='view.php?title=<?php echo $row['title']; ?>' style="text-decoration: none;color:black"> <div class="col-xs-3 card1Container releted_blog">
       <div class="card1">
         <img class="card-img-top blog-image " src="../../AdminAndroid/Admin/upload/<?php echo $row['image'];?>" alt="Card image cap">
         <div class="card-block card-data">
@@ -541,6 +543,7 @@ data-ad-slot="1234567890"></ins>
         </div>
       </div>
     </div>
+  </a>
 <?php
 }
 ?>

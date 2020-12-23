@@ -79,7 +79,7 @@ color:white;
 }
 
 .h-logo{
-  width: 40% !important;
+  width: 50% !important;
 }
 
 .main-nav a:hover {
@@ -267,6 +267,9 @@ ul.list-inline.text-center {
   transform: scale(1.2); 
 }
 
+.releted_blog:hover{
+   transform: scale(1.1); 
+}
 .data-link:hover{
   text-decoration: none;
 

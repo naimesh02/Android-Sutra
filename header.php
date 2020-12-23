@@ -45,9 +45,9 @@
           <li><div class="home_header_info"><a href="#" class="font-color header_info1">RXJAVA</a>
             <a href="#" class="font-color header_info2">RXJAVA</a></div></li>
            
-          <li><a href="Data.php?type=Beginners" class="font-color">BEGINNER</a></li>
-          <li><a href="Data.php?type=Mediators" class="font-color">MEDIATOR</a></li>
-          <li><a href="Data.php?type=Advanced" class="font-color">ADVANCED</a></li>
+          <li ><a href="Data.php?type=Beginners"  class="font-color" >BEGINNER</a></li>
+          <li><a href="Data.php?type=Mediators" id="mediator" class="font-color">MEDIATOR</a></li>
+          <li><a href="Data.php?type=Advanced" id="advanced" class="font-color">ADVANCED</a></li>
           <li><a href="#" class="font-color">BLOGS</a></li>
           <li><a href="#" class="font-color">TIPS</a></li>
           <li><a href="#" class="font-color">GITHUB</a></li>
@@ -90,5 +90,13 @@ function myFunction() {
   } else {
     x.className = "main-nav topnav";
   }
+}
+function addClass(id){
+  var x=document.getElementById(id);
+  // alert(x);
+  // var div=document.createElement('div');
+// x.classList.remove('data')
+x.className="home_header_info"  
+  // x.appendChild(div);
 }
 </script>
