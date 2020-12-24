@@ -342,6 +342,9 @@ margin: 20px;
 	height:250px;
 }
 
+.card_click_links{
+  text-decoration: none;color:black
+}
 /* Related Post CSS */
  .blog-image{
   width: 100% !important;

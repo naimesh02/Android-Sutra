@@ -358,7 +358,7 @@ Cloud
 
 <p class="Intro"><b>Why choose Career Option as an Android Developer
 </b></p>
-<p class="Intro"><ul class="into-data"><li style="list-style: circle;">In increasing globalization, mobile apps play a vital role in everyone’s
+<p class="Intro"><ul class="into-data"><li style="list-style: circle;line-height:1.5">In increasing globalization, mobile apps play a vital role in everyone’s
 life. Nowadays everything is very handy or just a few clicks away.</li><br/>
 <li style="list-style: circle;">
 In the last decades, the use of Mobile smartphones increases at a huge
@@ -375,11 +375,11 @@ data-ad-slot="1234567890"></ins>
 </script>
 </div>
 <br/>
-<li style="list-style: circle;">In the mobile shares, Android was always dominating the global
+<li style="list-style: circle;line-height:1.5">In the mobile shares, Android was always dominating the global
 smartphone operating system market for several years.</li><br/>
 <li style="list-style: circle;">It consists of over 75% of total mobile market shares consisting of 2.9
 million apps on play store.</li><br/>
-<li style="list-style: circle;">So Android has been around for a decade and os does seem to reach
+<li style="list-style: circle;line-height:1.5">So Android has been around for a decade and os does seem to reach
 some level of maturity. The job market does not look to be slowing
 down.</li><br/>
 </ul>
@@ -387,7 +387,7 @@ down.</li><br/>
 <p class="Intro"><b>Is Native Android Development still a good choice?</b></p>
 <p class="Intro"><ul class="into-data"><li style="list-style: circle;">There are still a lot more companies that are looking to build apps and
 tools that work for android.</li><br/>
-<li style="list-style: circle;">Are they looking for cross-platform solutions like Flutter or ReactNative? No, you will find more jobs regarding Android or iOS rather than
+<li style="list-style: circle;line-height:1.5">Are they looking for cross-platform solutions like Flutter or ReactNative? No, you will find more jobs regarding Android or iOS rather than
 Flutter or React-Native.</li><br/></ul></p>
 
 <p class="Intro"><b>Which skills you should own to become a better Android

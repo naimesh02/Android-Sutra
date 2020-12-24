@@ -9,7 +9,7 @@
   </h1>
   </div>
 <?php 
-$results_per_page=2;
+$results_per_page=10;
 $num_of_pages=0;
 
 $qry="SELECT * FROM `tbldata` where type='".$_GET['type']."'";
@@ -37,10 +37,10 @@ $cat=mysqli_query($conn,$qry);
 while($row=mysqli_fetch_array($cat))
 {
 ?>
-<div class="w3-panel w3-card w3-categorycard">
+<a href="view.php?title=<?php  echo $row['title'] ;?>" class="card_click_links"> <div class="w3-panel w3-card w3-categorycard ">
   <div class="w3-row">
      <div class="w3-third w3-center">
-      <div class="w3-panel w3-card w3-card-view">
+      <div class="w3-panel w3-card w3-card-view releted_blog">
       <img src="../../AdminAndroid/Admin/upload/<?php echo $row['image']; ?>" class="category-img" alt="
       Denim Jeans">
     </div>
@@ -57,7 +57,7 @@ while($row=mysqli_fetch_array($cat))
       </div>
     </div>
 </div>  
-
+</a>
 <?php 
 }
 ?>
