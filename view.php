@@ -79,9 +79,10 @@ if($gitLink !==null || $gitLink!='')
 
   ?>
   
-<a href="<?php echo $gitLink ?>"><button class="btn-download btn-medium info" >Download </button></a>
-   <a href="<?php echo $gitLink ?>">
-    <button class="btn-download btn-medium info" >Git Repository </button></a>
+<!-- <a href="<?php echo $gitLink ?>"> -->
+<a hre="#">  <button class="btn-download btn-medium info" >Download </button></a>
+   <!-- <a href="<?php echo $gitLink ?>"> -->
+  <a href="#">  <button class="btn-download btn-medium info" >Git Repository </button></a>
  
  
   <?php

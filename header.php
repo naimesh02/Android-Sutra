@@ -22,7 +22,7 @@
 <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-<body onload="myContent();" class="andriod_sutra">
+<body onLoad="myContent();" class="andriod_sutra">
 
 <div class="social-menu-section">
      <a href="#" class="fa fa-facebook"></a>
@@ -42,17 +42,17 @@
       <img src="Images/Header-Logo.png" class="h-logo"></img></a>
     </h1>
       <ul class="main-nav topnav" id="myTopnav">
-          <li><div class="home_header_info"><a href="#" class="font-color header_info1">Home</a>
-            <a href="#" class="font-color header_info2">Home</a></div></li>
+          <li><div class="home_header_info"><a href="index.php" class="font-color header_info1">Home</a>
+            <a href="index.php" class="font-color header_info2">Home</a></div></li>
            
           <li ><a href="Data.php?type=Beginners"  class="font-color" >BEGINNER</a></li>
           <li><a href="Data.php?type=Mediators" id="mediator" class="font-color">MEDIATOR</a></li>
           <li><a href="Data.php?type=Advanced" id="advanced" class="font-color">ADVANCED</a></li>
-          <li><a href="#" class="font-color">BLOGS</a></li>
-          <li><a href="#" class="font-color">TIPS</a></li>
-          <li><a href="#" class="font-color">GITHUB</a></li>
+          <li><a href="Blogs.php" class="font-color">BLOGS</a></li>
+          <li><a href="Tips.php" class="font-color">TIPS</a></li>
+          <li><a href="Github.php" class="font-color">GITHUB</a></li>
           <li></li>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <a href="javascript:void(0);" class="icon" onClick="myFunction()">
           <i class="fa fa-bars"></i></a>
       </ul>
 
@@ -72,15 +72,18 @@ var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
 function myFunction1() {
-  
+ 
   if (window.pageYOffset > sticky) {
     navbar.classList.add("sticky")
   } else {
     navbar.classList.remove("sticky");
   }
+ 
 }
+
 </script>
 <script>
+
 function myFunction() {
   var x = document.getElementById("myTopnav");
   var classes=x.className;
@@ -99,4 +102,5 @@ function addClass(id){
 x.className="home_header_info"  
   // x.appendChild(div);
 }
+
 </script>

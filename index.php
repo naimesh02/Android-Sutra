@@ -39,7 +39,22 @@
     </div>
   </div>
 </div>
+<style>
+ #scrollToTop, #scrollToBottom
+        {
+             cursor:pointer;
+             background-color:#0090CB;
+             display:inline-block;
+             height:40px;
+             width:40px;
+             color:#fff;
+             font-size:16pt;
+             text-align:center;
+             text-decoration:none;
+             line-height:40px;
+        }
 
+</style>
 
 <!-- Blog -->
 <div align="center" style="background-color: white;margin: 10px">
@@ -176,7 +191,7 @@ data-ad-slot="1234567890"></ins>
     </div>
  
     <div class="col-xs-6">
-         <!--<iframe src="http://www.youtube.com/embed/W7qWa52k-nE" style="padding:20px;" class="intro_video" width="570" height="335" frameborder="0" allowfullscreen></iframe>-->
+         <iframe src="http://www.youtube.com/embed/W7qWa52k-nE" style="padding:20px;" class="intro_video" width="570" height="335" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 </div>
@@ -294,7 +309,20 @@ data-ad-slot="1234567890"></ins>
 </div>
   
 
-
+	
 <?php include 'footer.php';?>
 </div>
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    
+<script type = "text/javascript">
+
+function scrollOffsetRecord(){
+localStorage.topper = document.body.offsetTop;
+localStorage.setItem("lastname", window.pageYOffset);
+console.log("data",localStorage.getItem("lastname"));
+};
+ 
+               $(window).load(function(){ $("html,body").scrollTop(755); });
+              
+</script>
 <!-- 
