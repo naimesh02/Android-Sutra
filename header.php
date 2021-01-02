@@ -42,8 +42,8 @@
       <img src="Images/Header-Logo.png" class="h-logo"></img></a>
     </h1>
       <ul class="main-nav topnav" id="myTopnav">
-          <li><div class="home_header_info"><a href="#" class="font-color header_info1">RXJAVA</a>
-            <a href="#" class="font-color header_info2">RXJAVA</a></div></li>
+          <li><div class="home_header_info"><a href="#" class="font-color header_info1">Home</a>
+            <a href="#" class="font-color header_info2">Home</a></div></li>
            
           <li ><a href="Data.php?type=Beginners"  class="font-color" >BEGINNER</a></li>
           <li><a href="Data.php?type=Mediators" id="mediator" class="font-color">MEDIATOR</a></li>

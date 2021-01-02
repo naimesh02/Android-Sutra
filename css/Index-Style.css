@@ -108,16 +108,21 @@ color:rgb(37, 144, 202) !important;
 .footer-logo{
 	width:40%;
 	margin-top:10px;
+display:flow-root !important;
+
 }
 .footer-details{
 	color:white;
 	text-align:center;
-	padding:10px;
+	
+display: table;
+    padding: 0px 70px;
 }
 .footer-details-md1{
 	color:white;
 	text-align:center;
-	padding: 5px 0px 15px;
+	display: table;
+    padding: 0px 95px 20px;
 }
 .card-data{
   padding: 6px;
@@ -164,16 +169,26 @@ color:rgb(37, 144, 202) !important;
 }
 
 ul.list-inline.text-center {
-    display: flex;
+	padding:0px !important;
+    display: inline-flex;
 }
+.li-icons{
+padding:20px;
+padding-Bottom:0px !important ;
+}
+.facebook-lcon{
+padding-left:-10px !important;
 
+padding-top:20px !important;
+
+}
 #contact-bar a {
   color: white;
   text-decoration: none;
 }
 
 #contact-bar ul li{
-  padding:20px;
+
   font-size: 200%;
 }
 
@@ -189,6 +204,7 @@ ul.list-inline.text-center {
 .container-footer{
   padding-left: 510px !important;
   padding: 5px;
+
 }
 
 .advertisment{

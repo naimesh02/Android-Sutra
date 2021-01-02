@@ -18,7 +18,7 @@ while ($row=mysqli_fetch_array($qrys)) {
       Denim Jeans">
   	</div>
     <div class="col-sm-4">
-    	<div align="center" style="background-color: red;margin: 10px">
+    	<div align="center" style="background-color: white;margin: 10px">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Homepage Leaderboard -->
 <ins class="adsbygoogle"
@@ -29,7 +29,7 @@ data-ad-slot="1234567890"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </div>
-<div align="center" style="background-color: red;margin: 10px">
+<div align="center" style="background-color: white;margin: 10px">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Homepage Leaderboard -->
 <ins class="adsbygoogle"
@@ -91,7 +91,7 @@ if($gitLink !==null || $gitLink!='')
  </center>
 </div>
 
-<div align="center" style="background-color: red;margin: -50px 100px 10px 100px;width: 60%">
+<div align="center" style="background-color: white;margin: -50px 100px 10px 100px;width: 60%">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Homepage Leaderboard -->
 <ins class="adsbygoogle"

@@ -6,12 +6,12 @@
     <h1 class="title_text" >DATA OF CATEGORY <?php echo strtoupper($_GET['category']);?>
   </h1>
   </div>
-<div align="center" style="background-color: red;margin: 10px;width: 50%;text-align: center;">
+<div align="center" style="background-color: white;margin: 10px;width: 50%;text-align: center;">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Homepage Leaderboard -->
 <ins class="adsbygoogle"
 style="display:inline-block;width:98px;height:17%"
-data-ad-client="ca-pub-1234567890123456"
+data-ad-client="ca-pub-9811412844510716"
 data-ad-slot="1234567890"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
@@ -71,23 +71,23 @@ $cat=mysqli_query($conn,$qry);
   <img src="https://thebhakti.com/wp-content/uploads/2019/01/mahakal.jpg"  class="sticky_ad" >
 </div> -->
 <div style="height: 100%; width: 10%;right:50; position:absolute; ">
-   <div align="center" style="background-color: red;margin: 10px">
+   <div align="center" style="background-color: white;margin: 10px">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Homepage Leaderboard -->
 <ins class="adsbygoogle"
 style="display:inline-block;width:98px;height:50%"
-data-ad-client="ca-pub-1234567890123456"
+data-ad-client="ca-pub-9811412844510716"
 data-ad-slot="1234567890"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </div>
-<div align="center" style="background-color: yellow; margin: 10px">
+<div align="center" style="background-color: white; margin: 10px">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Homepage Leaderboard -->
 <ins class="adsbygoogle"
 style="display:inline-block;width:98px;height:50%"
-data-ad-client="ca-pub-1234567890123456"
+data-ad-client="ca-pub-9811412844510716"
 data-ad-slot="1234567890"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});

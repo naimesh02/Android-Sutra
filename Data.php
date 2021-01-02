@@ -68,7 +68,7 @@ while($row=mysqli_fetch_array($cat))
 
 
 <div style="height: 100%; width: 10%;right:50; position:absolute; ">
-   <div align="center" style="background-color: red;margin: 10px">
+   <div align="center" style="background-color: white;margin: 10px">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Homepage Leaderboard -->
 <ins class="adsbygoogle"
@@ -79,7 +79,7 @@ data-ad-slot="1234567890"></ins>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </div>
-<div align="center" style="background-color: yellow; margin: 10px">
+<div align="center" style="background-color: white; margin: 10px">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Homepage Leaderboard -->
 <ins class="adsbygoogle"
@@ -108,7 +108,7 @@ else
 </div>
 </div>
 <div align="center">
-  <div align="center" style="background-color: yellow;width: 600px">
+  <div align="center" style="background-color: white;width: 600px">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Homepage Leaderboard -->
 <ins class="adsbygoogle"
