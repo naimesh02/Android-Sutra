@@ -116,13 +116,14 @@ display:flow-root !important;
 	text-align:center;
 	
 display: table;
-    padding: 0px 70px;
+    padding: 0px 120px;
+
 }
 .footer-details-md1{
 	color:white;
 	text-align:center;
 	display: table;
-    padding: 0px 95px 20px;
+    padding: 0px 155px 20px;
 }
 .card-data{
   padding: 6px;
@@ -171,13 +172,14 @@ display: table;
 ul.list-inline.text-center {
 	padding:0px !important;
     display: inline-flex;
+    padding: revert !important;
 }
 .li-icons{
 padding:20px;
 padding-Bottom:0px !important ;
 }
 .facebook-lcon{
-padding-left:-10px !important;
+padding-left:40px !important;
 
 padding-top:20px !important;
 
@@ -1000,6 +1002,17 @@ html, body
   .dataDesc{padding-right: 2rem !important;}
   .topicsView{padding-left: 0rem !important;}
   .sideListHead{margin-right: 20px !important;margin-top: 30px !important}
+ .footer-details{
+
+    padding:  0px 70px    !important;
+  }
+  .facebook-lcon{
+    padding-left: 0px !important;
+  }
+  .footer-details-md1{
+        padding: 0px 110px 20px !important;
+}
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) { 
@@ -1029,6 +1042,16 @@ html, body
  .footer .container-footer { padding-left:0px !important; }
  .footer .footer-logo { padding: 15px !important;width: 90% !important; }
  .container-footer .list-inline { padding-left: 40px !important; }
+ .footer-details{
+
+    padding:  0px 70px    !important;
+  }
+  .facebook-lcon{
+    padding-left: 0px !important;
+  }
+  .footer-details-md1{
+        padding: 0px 110px 20px !important;
+}
 }
 
 @media(min-width: 768px) and (max-width: 1200px){
