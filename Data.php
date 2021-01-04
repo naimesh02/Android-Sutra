@@ -132,10 +132,10 @@ for($i=1;$i<=$num_of_pages;$i++){
  <?php if($num_of_pages>0){  ?> <li><a href="#">Next</a></li><?php } ?>
  </ul>
     </div>
+    <?php include 'footer.php';?>
   </div>
 
     
 
 
-<?php include 'footer.php';?>
 <!-- <script type="text/javascript" src='js/paginationJs.js'></script> -->

@@ -39,22 +39,6 @@
     </div>
   </div>
 </div>
-<style>
- #scrollToTop, #scrollToBottom
-        {
-             cursor:pointer;
-             background-color:#0090CB;
-             display:inline-block;
-             height:40px;
-             width:40px;
-             color:#fff;
-             font-size:16pt;
-             text-align:center;
-             text-decoration:none;
-             line-height:40px;
-        }
-
-</style>
 
 <!-- Blog -->
 <div align="center" style="background-color: white;margin: 10px">
@@ -308,11 +292,7 @@ data-ad-slot="1234567890"></ins>
 
 </div>
   
-
-	
-<?php include 'footer.php';?>
-</div>
- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+ <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     
 <script type = "text/javascript">
 
@@ -324,5 +304,9 @@ console.log("data",localStorage.getItem("lastname"));
  
                $(window).load(function(){ $("html,body").scrollTop(755); });
               
-</script>
+</script> -->
+	
+<?php include 'footer.php';?>
+</div>
+
 <!-- 

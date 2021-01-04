@@ -112,13 +112,17 @@ display:flow-root !important;
 
 }
 .footer-details{
+  font-size: larger;
 	color:white;
 	text-align:center;
 	display: table;
   padding: 0px 160px;
+ font-family: "Segoe UI",Arial,sans-serif !important;
 
 }
 .footer-details-md1{
+  font-family: "Segoe UI",Arial,sans-serif !important;
+font-size: larger;
 	color:white;
 	text-align:center;
 	display: table;
@@ -1005,6 +1009,7 @@ html, body
   .topicsView{padding-left: 0rem !important;}
   .sideListHead{margin-right: 20px !important;margin-top: 30px !important}
  .footer-details{
+  font-family: "Segoe UI",Arial,sans-serif;
 
     padding:  0px 70px    !important;
   }
@@ -1045,6 +1050,7 @@ html, body
  .footer .footer-logo { padding: 15px !important;width: 90% !important; }
  .container-footer .list-inline { padding-left: 40px !important; }
  .footer-details{
+  font-family: "Segoe UI",Arial,sans-serif;
 
     padding:  0px 70px    !important;
   }
@@ -1052,6 +1058,9 @@ html, body
     padding-left: 0px !important;
   }
   .footer-details-md1{
+  font-family: "Segoe UI",Arial,sans-serif;
+
+
         padding: 0px 110px 20px !important;
 }
 }

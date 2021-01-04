@@ -19,8 +19,8 @@
       			<a href="#"><i class="footer-icon fa fa-instagram"></i></a>
     		</li>
   		</ul>
-		<h6 class="footer-details">copyright © 2021 androidsutra</h6>
-	<h6 class="footer-details-md1">www.androidsutra.in</h6>
+		<p class="footer-details">copyright © 2021 androidsutra</p>
+	<p class="footer-details-md1">www.androidsutra.in</p>
 	</div>
 	
 </div>
