@@ -12,7 +12,7 @@
 <div align="center">
   <p class="IntroGithub"><b>Conatct or Visit :
 </b></p>
-<p class="IntroGithub">We will provide Github support very soon.. <br/> You can drop your question at <a href="http://www.abhishekbardolia.com" style="text-decoration: underline; font-weight: bold;color: #0B568E"> http://www.abhishekbardolia.com</a> </p><br/><br/><br/>
+<p class="IntroGithub">We will provide Github support very soon.. <br/> You can drop your questions at <a href="http://www.abhishekbardolia.com" style="text-decoration: underline; font-weight: bold;color: #0B568E"> http://www.abhishekbardolia.com</a> </p><br/><br/><br/>
 <!-- </div> -->
 <!-- <div align="center">
   <p class="Intro"><b>Why choose Career Option as an Android Developer
