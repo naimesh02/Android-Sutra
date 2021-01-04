@@ -32,7 +32,7 @@ $this_page_start=($page-1)*$results_per_page;
 $qry="SELECT * FROM `tbldata` where type='".$_GET['type']."' ORDER BY sequenceNo LIMIT ".$this_page_start.','.$results_per_page;
 $cat=mysqli_query($conn,$qry);
 ?>
-<div style="width:85%;float: left;">
+<div  class="data-block">
 <?php
 while($row=mysqli_fetch_array($cat))
 {
