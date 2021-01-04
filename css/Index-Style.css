@@ -125,8 +125,8 @@ display:flow-root !important;
 font-size: larger;
 	color:white;
 	text-align:center;
-	display: table;
-    padding: 0px 195px 20px;
+	display: flex;
+    padding: 0px 215px 20px;
 }
 .card-data{
   padding: 6px;
@@ -418,9 +418,11 @@ margin: 20px;
   font-size: 20px !important;
   letter-spacing: 1px;
 
+
 }
-.intro-data-li{
+.into-data li{
   list-style:circle !important;
+  line-height:1.5
 }
 
 .Intro-img{
@@ -972,6 +974,9 @@ html, body
   body { padding-left: 0px !important; padding-right:0px !important;width: 100% !important; }
   .logo {  margin:15px -5px !important;  }
   .header{width: 100% !important;}
+  .navbar{
+        width: 100% !important;
+  }
   .h-logo { width:70% !important; }
   .main-nav { margin-top: -73px !important; }
   .advertisment { width: 100% !important; }
@@ -990,8 +995,8 @@ html, body
   .android_sutra .intro_title { font-size: 24px !important; margin-top: -100px !important;  }
   .android_sutra .intro_content{ padding-left: 2px !important;padding-right: 15px !important;display: flow-root; padding:initial; }
    .andriod_sutra .Intro{ padding: 15px !important; }
-   .android_sutra .intro-data{
-    padding:15px !important;
+ .andriod_sutra .into-data{
+    width: 205px !important;
    }
   .android_sutra .intro_video { width: 100% !important; height: 200 !important; }
   .rel_post_title{ font-size: 24px !important; }
@@ -1000,7 +1005,7 @@ html, body
   .header_info1,.header_info2{height: fit-content !important;}
   .container-footer { padding-left: 0px !important; }
   .container-footer .footer-logo{ padding: 10px !important;width: 100% !important; }
-  .container-footer .list-inline { margin-left: 0px !important; }
+  .container-footer .list-inline {     margin-left: 60px; !important; }
   .jumbotron .title_text{ font-size: 31px !important; }
   .container .jumbotron .title_text{ font-size: 21px !important; }
   .viewData{padding: 0px !important;}
@@ -1011,13 +1016,13 @@ html, body
  .footer-details{
   font-family: "Segoe UI",Arial,sans-serif;
 
-    padding:  0px 70px    !important;
+    padding:  0px 125px    !important;
   }
   .facebook-lcon{
     padding-left: 0px !important;
   }
   .footer-details-md1{
-        padding: 0px 110px 20px !important;
+        padding: 0px 170px 20px !important;
 }
   }
 }
@@ -1030,12 +1035,15 @@ html, body
  .advertisment .inner-box{ width: 100% !important; }
  .social-menu-section { text-align: center !important; }
  .advertisment { padding: 10px !important; }
- 
+  .header{width: 100% !important;}
+  .navbar{
+        width: 100% !important;
+  }
  .andriod_sutra .adv_box { padding: 10px !important; }
  .home_header_info{height: 8% !important,width:0% !important;}
   .header_info1,.header_info2{height: fit-content !important;}
  .jumbotron .title_text { font-size:21px !important; }
- .android_sutra .intro-content .intro-data{
+.into-data{
     padding: 15px !important;
 
 
@@ -1048,20 +1056,20 @@ html, body
  .andriod_sutra .rel_post_blog{ display: block !important;margin-left: auto !important;margin-right: auto !important; }
  .footer .container-footer { padding-left:0px !important; }
  .footer .footer-logo { padding: 15px !important;width: 90% !important; }
- .container-footer .list-inline { padding-left: 40px !important; }
+ .container-footer .list-inline { padding-left: 60px !important; }
  .footer-details{
   font-family: "Segoe UI",Arial,sans-serif;
 
     padding:  0px 70px    !important;
   }
-  .facebook-lcon{
+  .facebook-lcon
     padding-left: 0px !important;
   }
   .footer-details-md1{
   font-family: "Segoe UI",Arial,sans-serif;
 
 
-        padding: 0px 110px 20px !important;
+        padding: 0px 205px 20px !important;
 }
 }
 
