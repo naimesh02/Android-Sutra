@@ -1,4 +1,5 @@
 <?php include 'header.php';?>
+<?php include 'conn.php';?>
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
 
@@ -33,7 +34,7 @@ $this_page_start=($page-1)*$results_per_page;
 $qry="SELECT * FROM `tblblogs` ORDER BY storeDate LIMIT ".$this_page_start.','.$results_per_page;
 $cat=mysqli_query($conn,$qry);
 ?>
-<div class="data-block">
+<div >
   <div class="blog_row">
 
 <?php

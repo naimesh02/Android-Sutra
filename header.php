@@ -1,6 +1,5 @@
   <html>
 <head>
-  <title>Andriod Project</title>
 
 <meta charset="utf-8">
 

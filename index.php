@@ -175,8 +175,10 @@ data-ad-slot="1234567890"></ins>
       <img src="Images/intro-img.jpg" class="Intro-img" width="570" height="335" alt="Denim Jeans">
     </div>
  
-    <div class="col-xs-6">
-         <iframe src="http://www.youtube.com/embed/W7qWa52k-nE" style="padding:20px;" class="intro_video" width="570" height="335" frameborder="0" allowfullscreen></iframe>
+    <div class="col-xs-6 video" >
+      
+         <iframe src="http://www.youtube.com/embed/W7qWa52k-nE"   style="padding:20px;" class="intro_video" width="570" height="335" frameborder="0" allowfullscreen></iframe>
+      
     </div>
   </div>
 </div>

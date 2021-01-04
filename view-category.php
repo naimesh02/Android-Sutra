@@ -1,4 +1,5 @@
 <?php include 'header.php' ?>
+<?php include 'conn.php';?>
 <?php
 $sql="SELECT * FROM `tblcategorydata` WHERE title ='". $_GET['title']."'";
 $qrys=mysqli_query($conn,$sql);

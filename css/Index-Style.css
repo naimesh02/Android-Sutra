@@ -974,10 +974,8 @@ html, body
   body { padding-left: 0px !important; padding-right:0px !important;width: 100% !important; }
   .logo {  margin:15px -5px !important;  }
   .header{width: 100% !important;}
-  .navbar{
-        width: 100% !important;
-  }
   .h-logo { width:70% !important; }
+   .video {width: 100%; display: flex !important;}
   .main-nav { margin-top: -73px !important; }
   .advertisment { width: 100% !important; }
   .main-box { width: 100% !important; }
@@ -996,7 +994,7 @@ html, body
   .android_sutra .intro_content{ padding-left: 2px !important;padding-right: 15px !important;display: flow-root; padding:initial; }
    .andriod_sutra .Intro{ padding: 15px !important; }
  .andriod_sutra .into-data{
-    width: 205px !important;
+    width: 90% !important;
    }
   .android_sutra .intro_video { width: 100% !important; height: 200 !important; }
   .rel_post_title{ font-size: 24px !important; }
@@ -1016,13 +1014,13 @@ html, body
  .footer-details{
   font-family: "Segoe UI",Arial,sans-serif;
 
-    padding:  0px 125px    !important;
+    padding:  0px 110px    !important;
   }
   .facebook-lcon{
     padding-left: 0px !important;
   }
   .footer-details-md1{
-        padding: 0px 170px 20px !important;
+        padding: 0px 150px 20px !important;
 }
   }
 }
@@ -1051,7 +1049,8 @@ html, body
   }
  .andriod_sutra .beginner-blog,.mediator-blog,.advance-blog{ margin-bottom: 40px !important; }
  .andriod_sutra .Intro{ padding: 15px !important; }
- .andriod_sutra .intro_video { height: 326px !important; width: 462px !important;padding: 20px !important; }
+
+  .intro_video { height: 326px !important; width: 462px !important;padding: 20px !important; }
   .android_sutra .intro_content{ padding-left: 2px !important;padding-right: 15px !important; }
  .andriod_sutra .rel_post_blog{ display: block !important;margin-left: auto !important;margin-right: auto !important; }
  .footer .container-footer { padding-left:0px !important; }
@@ -1065,12 +1064,7 @@ html, body
   .facebook-lcon
     padding-left: 0px !important;
   }
-  .footer-details-md1{
-  font-family: "Segoe UI",Arial,sans-serif;
-
-
-        padding: 0px 205px 20px !important;
-}
+  
 }
 
 @media(min-width: 768px) and (max-width: 1200px){
